@@ -1,10 +1,12 @@
-name: cookbook-dev
+name: atm320
 channels:
   - conda-forge
 dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server<2
+  - xarray
+  - metpy
   - pip
   - pip:
       - sphinx-pythia-theme
