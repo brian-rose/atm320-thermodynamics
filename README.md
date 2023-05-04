@@ -1,9 +1,9 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# AATM 320: Atmospheric Thermodynamics
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/brian-rose/atm320-thermodynamics/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/brian-rose/atm320-thermodynamics/actions/workflows/nightly-build.yaml)
+[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/brian-rose/atm320-thermodynamics/main?labpath=notebooks)
 
 This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
 
@@ -13,7 +13,7 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Brian Rose](@brian-rose)
 
 ### Contributors
 
@@ -53,30 +53,3 @@ have no output at first, until you execute them by pressing
 {kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
 a live Jupyter notebook are described in [Getting Started with
 Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
-
-### Running on Your Own Machine
-
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
-
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
-
-   ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
-   ```
-
-1. Move into the `cookbook-example` directory
-   ```bash
-   cd cookbook-example
-   ```
-1. Create and activate your conda environment from the `environment.yml` file
-   ```bash
-   conda env create -f environment.yml
-   conda activate cookbook-example
-   ```
-1. Move into the `notebooks` directory and start up Jupyterlab
-   ```bash
-   cd notebooks/
-   jupyter lab
-   ```
