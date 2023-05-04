@@ -5,3 +5,4 @@ parts:
     chapters:
       # - file: notebooks/notebook-template
       - file: schedule
+      - file: syllabus
