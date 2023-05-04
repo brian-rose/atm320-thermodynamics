@@ -1,6 +1,7 @@
 format: jb-book
 root: README
 parts:
-  - caption: Introduction
+  - caption: Course materials
     chapters:
-      - file: notebooks/notebook-template
+      # - file: notebooks/notebook-template
+      - file: schedule

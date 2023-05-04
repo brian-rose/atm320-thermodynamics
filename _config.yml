@@ -60,21 +60,23 @@ sphinx:
         binderhub_url: http://binder.mypythia.org
         notebook_interface: jupyterlab
       extra_navbar: |
-        Theme by <a href="https://projectpythia.org">Project Pythia</a>.<br><br>
-        All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0 (CC BY 4.0)</a>.<br><br>
+        Website infrastructure adapted from <a href="https://projectpythia.org">Project Pythia</a>
+      # extra_navbar: |
+      #   Theme by <a href="https://projectpythia.org">Project Pythia</a>.<br><br>
+      #   All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0 (CC BY 4.0)</a>.<br><br>
       logo_link: https://projectpythia.org
-      navbar_links:
-        - name: Home
-          url: https://projectpythia.org
-        - name: Foundations
-          url: https://foundations.projectpythia.org
-        - name: Cookbooks
-          url: https://cookbooks.projectpythia.org
-        - name: Resources
-          url: https://projectpythia.org/resource-gallery.html
-        - name: Community
-          url: https://projectpythia.org/index.html#join-us
-      footer_logos:
-        NCAR: notebooks/images/logos/NCAR-contemp-logo-blue.svg
-        Unidata: notebooks/images/logos/Unidata_logo_horizontal_1200x300.svg
-        UAlbany: notebooks/images/logos/UAlbany-A2-logo-purple-gold.svg
+      # navbar_links:
+      #   - name: Home
+      #     url: https://projectpythia.org
+      #   - name: Foundations
+      #     url: https://foundations.projectpythia.org
+      #   - name: Cookbooks
+      #     url: https://cookbooks.projectpythia.org
+      #   - name: Resources
+      #     url: https://projectpythia.org/resource-gallery.html
+      #   - name: Community
+      #     url: https://projectpythia.org/index.html#join-us
+      # footer_logos:
+      #   NCAR: notebooks/images/logos/NCAR-contemp-logo-blue.svg
+      #   Unidata: notebooks/images/logos/Unidata_logo_horizontal_1200x300.svg
+      #   UAlbany: notebooks/images/logos/UAlbany-A2-logo-purple-gold.svg
