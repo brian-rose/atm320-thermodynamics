@@ -1,5 +1,3 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
-
 # AATM 320: Atmospheric Thermodynamics
 
 [![nightly-build](https://github.com/brian-rose/atm320-thermodynamics/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/brian-rose/atm320-thermodynamics/actions/workflows/nightly-build.yaml)
