@@ -7,31 +7,10 @@
 
 This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
 
-## Motivation
-
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
 
 ## Authors
 
 [Brian Rose](@brian-rose)
-
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
-
-## Structure
-
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
 
 ## Running the Notebooks
 
