@@ -2,7 +2,7 @@
 
 *This is subject to change!*
 
-The course outline closely follows the chapters in the book *A First Course in Atmospheric Thermodynamics* by Grant W. Petty
+The course outline closely follows the chapters in the book [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty)
 
 0. Course overview and primers (2 class days)
     * Syllabus and overview
@@ -25,5 +25,5 @@ The course outline closely follows the chapters in the book *A First Course in A
 8. Atmospheric stability (2 weeks)
     * Assignment 6 near the end
 
-FINAL EXAM Thursday December 7 10:30 am - 12:30 pm (per university calendar)
+**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
 
