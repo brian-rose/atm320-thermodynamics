@@ -11,38 +11,64 @@ Meeting time:
 : Monday / Wednesday / Friday 10:35 - 11:30 AM in ETEC 482
 
 Instructor:
-: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/) (office is ETEC 425)
+: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/) 
 
 Office hours:
-: TBD
+: TBD in ETEC 425
+
+Teaching Assistant:
+: Peter Ansah _(office and office hours TBD)_
+
+Prerequisites:
+: A ATM 211, A PHY 150 or 151 or T PHY151, A MAT 214
+
+Corequisites:
+: A ATM 316, A MAT 311 or A MAT 215
+
+Course description (from the [Undergraduate Bulletin](https://www.albany.edu/undergraduate_bulletin/a_atm.html)):
+: _Equation of state; principles of thermodynamics; water vapor and moist air thermodynamics; changes of phase and latent heat; hydrostatic equilibrium; atmospheric convection; thermodynamic diagrams; atmospheric stability and severe weather events._
 
 Course Objective:
-The goal of this course is to understand the physical laws that govern how energy and heat are transmitted in the atmosphere.
-
-Prequisites:
-ATM 211
+: The goal of this course is to understand the physical laws that govern how energy and heat are transmitted in the atmosphere.
 
 Course website:
 : [https://brian-rose.github.io/atm320-thermodynamics](https://brian-rose.github.io/atm320-thermodynamics)
 
-Grading: A-E, 3 credit
-- Homework assignments (roughly 6): 25%
-- In-class quizzes: 10%
-- Two in-class exams: 17.5% each
-- Final exam (Thursday December 7 2023, 10:30 am - 12:30 pm): 30%
-- Term project and presentation: 40%
+Grading (A-E, 3 credit):
+: - Homework assignments (roughly 6): 25%
+  - In-class quizzes: 10%
+  - Two in-class exams: 17.5% each
+  - Final exam (Thursday December 7 2023, 10:30 am - 12:30 pm): 30%
+  - Term project and presentation: 40%
 
-Late assignments and off-time exams are only allowed for University-recognized reasons ([https://www.albany.edu/health_center/medicalexcuse.shtml](https://www.albany.edu/health_center/medicalexcuse.shtml)). Homework assignments lose 20% of their value per day it is late (i.e., an assignment turned in two days late cannot get better than 60%).
+### Grading policies
 
-Exception: one late day per student to be used at your discretion during the semester.
+Late assignments and off-time exams are only allowed for University-recognized reasons ([https://www.albany.edu/health_center/medicalexcuse.shtml](https://www.albany.edu/health_center/medicalexcuse.shtml)). 
 
-<!-- ### Course description
+**Homework assignments lose 20% of their value per late day** (i.e., an assignment turned in two days late cannot get better than 60%).
 
-The course will explore fundamental questions about why the circulation looks the way it does, bringing together observations, theory, and models. The [bulletin description](https://www.albany.edu/graduatebulletin/a_atm.htm) says
+**Exception**: _one late day per student_ to be used at your discretion during the semester.
 
-> Processes which maintain the general circulation of the Earth's atmosphere; investigation of observed angular momentum, energy and water vapor budgets of the atmosphere; atmospheric energetics; application of numerical methods to studies of the general circulation.
+Percentage grades will be converted into letter grades based on the following formula:
 
-Our approach will be hands-on and data-centric wherever possible. We will put significant emphasis on reproducible workflows to generate the maps and diagnostics we look at. So in addition to fundamental science, the course should arm you with a useful toolkit of modern Python-based analysis tools. We will also spend some time in the new Fluids lab carrying out rotating tank experiments to complement the observations and theory. -->
+_Formula TBD_
+
+### Textbooks and reading
+
+The **required text** is [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty).
+
+The course will closely follow this book, and students will be reading it cover-to-cover. Having your own copy is highly recommended. One copy will be on reserve at the Science Library.
+
+Reading assignments will be clearly posted on the [schedule page of the course website](schedule). The reading is required, and must be **completed before class** on the day indicated. It is important for every student to keep up with this schedule.
+
+Students may also want to consult the excellent book [_Atmospheric Science: An Introductory Survey_, 2nd ed. by J. M. Wallace and P. V. Hobbs, Academic Press 2006](https://shop.elsevier.com/books/atmospheric-science/wallace/978-0-12-732951-2) for supplementary reading.
+
+### Quizzes and Exams
+
+To encourage students to keep up with the assigned reading schedule, a pop quiz will occasionally be given in class. Dates will not be announced in advance. Quizzes will be given in the first 5 minutes of class.
+
+There will be two in-class exams and a final exam during the University exam period (dates posted on the [schedule page of the course website](schedule)). 
+
 
 ### Academic integrity
 
