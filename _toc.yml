@@ -8,11 +8,11 @@ parts:
       - file: syllabus
   - caption: Lecture chapters
     chapters:
-      - file: composition-structure
-      - file: thermo-systems
-      - file: physical-properties
-      - file: pressure
-      - file: first-law
-      - file: second-law
-      - file: moist-processes
-      - file: stability
+      - file: notebooks/composition-structure
+      - file: notebooks/thermo-systems
+      - file: notebooks/physical-properties
+      - file: notebooks/pressure
+      - file: notebooks/first-law
+      - file: notebooks/second-law
+      - file: notebooks/moist-processes
+      - file: notebooks/stability
