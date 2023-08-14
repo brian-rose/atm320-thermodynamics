@@ -6,3 +6,13 @@ parts:
       # - file: notebooks/notebook-template
       - file: schedule
       - file: syllabus
+  - caption: Lecture chapters
+    chapters:
+      - file: composition-structure
+      - file: thermo-systems
+      - file: physical-properties
+      - file: pressure
+      - file: first-law
+      - file: second-law
+      - file: moist-processes
+      - file: stability

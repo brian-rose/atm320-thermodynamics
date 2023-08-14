@@ -7,6 +7,7 @@ dependencies:
   - jupyter_server
   - xarray
   - metpy
+  - siphon
   - pip
   - pip:
       - sphinx-pythia-theme
