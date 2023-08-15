@@ -8,7 +8,7 @@ Class number:
 : 5299
 
 Meeting time:
-: Monday / Wednesday / Friday 10:35 - 11:30 AM in ETEC 482
+: Monday / Wednesday / Friday 10:35 - 11:30 AM in ETEC 480
 
 Instructor:
 : [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/) 
