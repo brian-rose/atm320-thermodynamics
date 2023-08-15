@@ -104,7 +104,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../README.html">
+  <a class="reference internal" href="../home.html">
    AATM 320: Atmospheric Thermodynamics
   </a>
  </li>
@@ -377,8 +377,9 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="an-observed-temperature-profile-figure-1-5">
 <h2><span class="section-number">1.2. </span>An observed temperature profile (Figure 1.5)<a class="headerlink" href="#an-observed-temperature-profile-figure-1-5" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p>You can browse archived upper-air observations here: http://weather.uwyo.edu/upperair/sounding.html</p>
-<p>Below we are going to access the same data in a Python script. As you can see below, we regenerate the temperature plot in Figure 1.5 by</p>
+<p>You can browse upper-air observations archived at the University of Wyoming at this site: <a class="reference external" href="http://weather.uwyo.edu/upperair/sounding.html">http://weather.uwyo.edu/upperair/sounding.html</a></p>
+<p>Below we are going to access the same data in a Python script. As you can see below, we regenerate the temperature plot in Figure 1.5 by querying the data base for the correct station, date, and time.</p>
+<p>We will probably dive deeper into how some of this code works later. For now, the important point is that we can easily access and plot radiosonde observations for arbitrary stations and dates.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -457,7 +458,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f26dbbeada0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7f26acfebd60&gt;
 </pre></div>
 </div>
 <img alt="../_images/c49598ce79a45d3178d382ecf6a61c6da6ac9eb5edf56e3c8b036c122a66002b.png" src="../_images/c49598ce79a45d3178d382ecf6a61c6da6ac9eb5edf56e3c8b036c122a66002b.png" />
