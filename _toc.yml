@@ -1,5 +1,5 @@
 format: jb-book
-root: README
+root: home
 parts:
   - caption: Course materials
     chapters:
