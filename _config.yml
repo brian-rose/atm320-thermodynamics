@@ -25,6 +25,7 @@ parse:
     - replacements
     - smartquotes
     - substitution
+    - tasklist
 
 sphinx:
   config:

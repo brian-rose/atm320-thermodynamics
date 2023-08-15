@@ -35,11 +35,10 @@ Course website:
 : [https://brian-rose.github.io/atm320-thermodynamics](https://brian-rose.github.io/atm320-thermodynamics)
 
 Grading (A-E, 3 credit):
-: - Homework assignments (roughly 6): 25%
-  - In-class quizzes: 10%
-  - Two in-class exams: 17.5% each
-  - Final exam (Thursday December 7 2023, 10:30 am - 12:30 pm): 30%
-  - Term project and presentation: 40%
+: - Homework assignments (roughly 6): 30%
+  - Reading responses: 10%
+  - Two in-class exams: 15% each
+  - Final exam _(Thursday December 7 2023, 10:30 am - 12:30 pm)_: 30%
 
 ### Grading policies
 
@@ -52,6 +51,7 @@ Late assignments and off-time exams are only allowed for University-recognized r
 Percentage grades will be converted into letter grades based on the following formula:
 
 _Formula TBD_
+
 
 ### Textbooks and reading
 
@@ -75,3 +75,34 @@ There will be two in-class exams and a final exam during the University exam per
 Although students may work together, all homework assignments must be completed independently. Homework assignments that are substantially similar to other students will receive a zero for that assignment. Copying from other students on quizzes and exams may result in a zero for that work and referral for disciplinary action.
 
 It is every student's responsibility to become familiar with the standards of academic integrity at UAlbany. Claims of ignorance, of unintentional error, or of academic or personal pressures are not sufficient reasons for violations of academic integrity. Please refer to the UAlbany academic integrity policies here: [https://www.albany.edu/undergraduate_bulletin/regulations.html](https://www.albany.edu/undergraduate_bulletin/regulations.html)
+
+
+### Mental Health and Well-being
+
+As a student, there may be times when personal stressors interfere with your academic performance and/or negatively impact your daily life. The University at Albany Counseling and Psychological Services (CAPS) provides free, confidential services including individual and group psychological counseling and evaluation for emotional, social and academic concerns. Students may consult with CAPS staff remotely by telephone, email or Zoom appointments regarding issues that impact them or someone they care about.  For questions or to make an appointment, call (518) 442-5800 or email consultation@albany.edu.  Visit <https://www.albany.edu/health-well-being/mental-health/caps> for hours of operation and additional information
+ 
+If your life or someone else’s life is in danger, please call 911. If you are in a crisis and need help right away, please call the National Suicide Prevention Lifeline at 988.
+Students dealing with heightened feelings of sadness or hopelessness, increased anxiety, or thoughts of suicide may also text “HOME” to 741741 (Crisis Text Line).
+ 
+<https://988lifeline.org/?scrlybrkr=4617837b>
+<https://www.albany.edu/health-well-being/emergencies>
+
+
+### Course outline
+
+The outline of the course closely follows the chapters in Petty's book. The precise timing of each section is TBD but a detailed reading and assignment schedule will be made available to students and kept up to date.
+
+0. Course overview and primers on physical problem solving
+1. Atmospheric composition and structure 
+2. Thermodynamic systems and variables
+3. Physical properties of air 
+4. Atmospheric pressure 
+    * EXAM 1 after this
+5. The First Law and its consequences 
+6. The Second Law and its consequences
+7. Moist processes 
+    * EXAM 2 somewhere in here
+8. Atmospheric stability 
+
+**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
+
