@@ -52,6 +52,7 @@ sphinx:
       #     type: fontawesome
       launch_buttons:
         binderhub_url: https://binder.projectpythia.org
+        jupyterhub_url: "https://lore.atmos.albany.edu:8000" 
         notebook_interface: jupyterlab
       extra_navbar: |
         Website infrastructure adapted from <a href="https://projectpythia.org">Project Pythia</a>
