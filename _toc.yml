@@ -7,6 +7,7 @@ parts:
       - file: schedule
       - file: syllabus
   - caption: Lecture chapters
+    numbered: True
     chapters:
       - file: notebooks/composition-structure
       - file: notebooks/thermo-systems
