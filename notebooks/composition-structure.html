@@ -430,18 +430,19 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">pticks</span><span class="o">**</span><span class="n">k</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">pticks</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Dodge City, Kansas  </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">);</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Dodge City, Kansas  </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/2286dcdb45a9709c6de4363483ba25bfa40554c1892727c840fee84b0689ceb2.png" src="../_images/2286dcdb45a9709c6de4363483ba25bfa40554c1892727c840fee84b0689ceb2.png" />
+<img alt="../_images/65dd0b65b1f08a9bee7368b46256a785a50cf9708677fa9a4c808f37dc3c0881.png" src="../_images/65dd0b65b1f08a9bee7368b46256a785a50cf9708677fa9a4c808f37dc3c0881.png" />
 </div>
 </div>
 <p>Compare against Figure 1.5 in the text. It’s exactly the same data, and plotted the same way!</p>
+<p>Here we are plotting temperature on the <span class="math notranslate nohighlight">\(x\)</span> axis, and pressure decreasing upward on the <span class="math notranslate nohighlight">\(y\)</span> axis, with the intervals between pressure levels getting larger as we go up. As you can see in the code above, the <span class="math notranslate nohighlight">\(y\)</span> axis is actual <span class="math notranslate nohighlight">\(p^{0.286}\)</span>. This plotting convention is known as a <em>Stüve diagram</em>.</p>
 <p>We will use similar code to access radiosonde data many times during this course, but we will make some changes to how we plot the results.</p>
 </div>
 <div class="section" id="figure-1-7-the-us-standard-atmosphere">
@@ -450,7 +451,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="figure-1-8-summer-versus-winter-temperature-profiles">
 <h2>Figure 1.8: Summer versus Winter Temperature Profiles<a class="headerlink" href="#figure-1-8-summer-versus-winter-temperature-profiles" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p>Here we recreate Figure 1.8 by accessing the radiosonde data for the same summer and winter dates as used in the book.</p>
+<p>Here we recreate Figure 1.8 by accessing the radiosonde data for the same summer and winter dates as used in the book. The data are plotted on the same Stüve diagram as in Figure 1.5.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">summer</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="mi">2004</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># year, month, day, hour</span>
@@ -472,21 +473,22 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">pticks</span><span class="o">**</span><span class="n">k</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">pticks</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Dodge City, Kansas  </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">);</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Dodge City, Kansas  </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/f9fce13aafe88fc0913b46a32e763c1340262af93cd9920806c2af52e9278fd9.png" src="../_images/f9fce13aafe88fc0913b46a32e763c1340262af93cd9920806c2af52e9278fd9.png" />
+<img alt="../_images/59d5acace0e8f38f056dcd77e2a90f6aef62e3dec1acd04070055645b0d4ffdf.png" src="../_images/59d5acace0e8f38f056dcd77e2a90f6aef62e3dec1acd04070055645b0d4ffdf.png" />
 </div>
 </div>
 </div>
 <div class="section" id="figure-1-9-tropical-versus-arctic-profiles">
 <h2>Figure 1.9: Tropical versus Arctic profiles<a class="headerlink" href="#figure-1-9-tropical-versus-arctic-profiles" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p>Again, we use very similar code here to retrieve the sounding data for Bintulu and Resolute and plot them on the same Stüve diagram as before to reproduce Figure 1.9</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tropical_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="mi">2004</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
@@ -510,22 +512,25 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">pticks</span><span class="o">**</span><span class="n">k</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">pticks</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Typical Tropical vs. Arctic Winter Temperature Profiles&#39;</span><span class="p">);</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Typical Tropical vs. Arctic Winter Temperature Profiles&#39;</span><span class="p">,</span>
+            <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/b83ba2f3bdc558a5206b86f1bee099e076b1f6cbdbc509a45bce6e182fee5e26.png" src="../_images/b83ba2f3bdc558a5206b86f1bee099e076b1f6cbdbc509a45bce6e182fee5e26.png" />
+<img alt="../_images/be65debd76eb845aaf0a3749253da9fde1a691357bd67cb13aabd51767e56e54.png" src="../_images/be65debd76eb845aaf0a3749253da9fde1a691357bd67cb13aabd51767e56e54.png" />
 </div>
 </div>
 </div>
 <div class="section" id="figure-1-19-emagram-versus-skew-t-plots">
 <h2>Figure 1.19: emagram versus skew-T plots<a class="headerlink" href="#figure-1-19-emagram-versus-skew-t-plots" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p>Figure 1.19 shows the same plotted two different ways. The Skew-T diagram rotates the isotherms (lines of constant air temperature) so they are diagonal. This can make it easier to visualize sounding data, since the temperature almost always decreases by quite a lot with height.</p>
+<p>Figure 1.19 shows the same plotted two different ways.</p>
+<p>The <em>emagram</em> is like a Stüve diagram, with temperature on the <span class="math notranslate nohighlight">\(x\)</span> axis, except the pressure axis is stretched in a different way. Instead of <span class="math notranslate nohighlight">\(p^{0.286}\)</span>, we use the natural log <span class="math notranslate nohighlight">\(\ln p\)</span> on the <span class="math notranslate nohighlight">\(y\)</span> axis. As we will see later on, the log of pressure is approximately proportional to altitude in meters.</p>
+<p>The <em>Skew T log p</em> diagram (almost always abbreviated to just <em>Skew-T</em>) uses the same log axis for pressure (again proportional to height), but rotates the isotherms (lines of constant air temperature) so they are diagonal. This can make it easier to visualize sounding data, since the temperature almost always decreases by quite a lot with height.</p>
 <p>We will be plotting a lot of Skew-T diagrams in this course. Below, I use the extremely useful Python package <a class="reference external" href="https://unidata.github.io/MetPy/">MetPy</a> to help plot the Skew-T plot with minimal code.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -552,8 +557,6 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">1050</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">100</span><span class="p">))</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">pticks</span><span class="p">))</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">pticks</span><span class="p">)</span>
-<span class="c1"># ax.set_ylabel(&#39;Pressure [hPa]&#39;)</span>
-<span class="c1"># ax.set_xlabel(&#39;Temperature [ºC]&#39;)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 
 <span class="n">skew</span> <span class="o">=</span> <span class="n">SkewT</span><span class="p">(</span><span class="n">fig</span><span class="o">=</span><span class="n">fig</span><span class="p">,</span> <span class="n">subplot</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">)</span>
