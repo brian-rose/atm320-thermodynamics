@@ -1,23 +1,24 @@
-# Syllabus
+# Syllabus (AATM 320, Fall 2023)
 
-## A ATM 320: Atmospheric Thermodynamics (Fall 2023)
-
-### Course information
+## Course information
 
 Class number:
 : 5299
 
 Meeting time:
-: Monday / Wednesday / Friday 10:35 - 11:30 AM in ETEC 480
+: Monday / Wednesday / Friday, 10:35 - 11:30 AM in ETEC 480
 
 Instructor:
-: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/) 
-
-Office hours:
-: TBD in ETEC 425
+: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/)
+: email: brose -at- albany.edu 
+: office: ETEC 425
+: office hourse: TBD
 
 Teaching Assistant:
-: Peter Ansah _(office and office hours TBD)_
+: **Peter Ansah**
+: email: pansah -at- albany.edu
+: office: TBD
+: office hours: TBD
 
 Prerequisites:
 : A ATM 211, A PHY 150 or 151 or T PHY151, A MAT 214
@@ -34,26 +35,27 @@ Course Objective:
 Course website:
 : [https://brian-rose.github.io/atm320-thermodynamics](https://brian-rose.github.io/atm320-thermodynamics)
 
-Grading (A-E, 3 credit):
-: - Homework assignments (roughly 6): 30%
-  - Reading responses: 10%
-  - Two in-class exams: 15% each
-  - Final exam _(Thursday December 7 2023, 10:30 am - 12:30 pm)_: 30%
+## Grading 
+
+### Grading scheme (A-E, 3 credit)
+- Homework assignments (roughly 6): 30%
+- Reading responses: 10%
+- Two in-class exams: 15% each
+- Final exam: 30%
+
+_The final exam will be held Thursday December 7 2023, 10:30 am - 12:30 pm)_
 
 ### Grading policies
 
-Late assignments and off-time exams are only allowed for University-recognized reasons ([https://www.albany.edu/health_center/medicalexcuse.shtml](https://www.albany.edu/health_center/medicalexcuse.shtml)). 
-
-**Homework assignments lose 20% of their value per late day** (i.e., an assignment turned in two days late cannot get better than 60%).
-
-**Exception**: _one late day per student_ to be used at your discretion during the semester.
-
-Percentage grades will be converted into letter grades based on the following formula:
+- Late assignments and off-time exams are only allowed for University-recognized reasons (<https://www.albany.edu/health_center/medicalexcuse.shtml>)
+- **Homework assignments lose 20% of their value per late day** (i.e., an assignment turned in two days late cannot get better than 60%).
+    - **Exception**: _one late day per student_ to be used at your discretion during the semester.
+- Percentage grades will be converted into letter grades based on the following formula:
 
 _Formula TBD_
 
 
-### Textbooks and reading
+## Textbooks and reading
 
 The **required text** is [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty).
 
@@ -70,14 +72,14 @@ To encourage students to keep up with the assigned reading schedule, a pop quiz 
 There will be two in-class exams and a final exam during the University exam period (dates posted on the [schedule page of the course website](schedule)). 
 
 
-### Academic integrity
+## Academic integrity
 
 Although students may work together, all homework assignments must be completed independently. Homework assignments that are substantially similar to other students will receive a zero for that assignment. Copying from other students on quizzes and exams may result in a zero for that work and referral for disciplinary action.
 
 It is every student's responsibility to become familiar with the standards of academic integrity at UAlbany. Claims of ignorance, of unintentional error, or of academic or personal pressures are not sufficient reasons for violations of academic integrity. Please refer to the UAlbany academic integrity policies here: [https://www.albany.edu/undergraduate_bulletin/regulations.html](https://www.albany.edu/undergraduate_bulletin/regulations.html)
 
 
-### Mental Health and Well-being
+## Mental Health and Well-being
 
 As a student, there may be times when personal stressors interfere with your academic performance and/or negatively impact your daily life. The University at Albany Counseling and Psychological Services (CAPS) provides free, confidential services including individual and group psychological counseling and evaluation for emotional, social and academic concerns. Students may consult with CAPS staff remotely by telephone, email or Zoom appointments regarding issues that impact them or someone they care about.  For questions or to make an appointment, call (518) 442-5800 or email consultation@albany.edu.  Visit <https://www.albany.edu/health-well-being/mental-health/caps> for hours of operation and additional information
  
@@ -88,7 +90,7 @@ Students dealing with heightened feelings of sadness or hopelessness, increased 
 <https://www.albany.edu/health-well-being/emergencies>
 
 
-### Course outline
+## Course outline
 
 The outline of the course closely follows the chapters in Petty's book. The precise timing of each section is TBD but a detailed reading and assignment schedule will be made available to students and kept up to date.
 
