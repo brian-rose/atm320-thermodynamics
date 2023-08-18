@@ -447,7 +447,71 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="figure-1-7-the-us-standard-atmosphere">
 <h2>Figure 1.7: The US Standard Atmosphere<a class="headerlink" href="#figure-1-7-the-us-standard-atmosphere" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p><em>Reproduction of Figure 1.7 under construction</em></p>
+<p>We’ll talk more about the definition, meaning, and use of the so-called “Standard Atmosphere” later in the course.</p>
+<p>The code below is not so pretty, but it does reproduce a version of Figure 1.7.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">layer_boundaries</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">11.</span><span class="p">,</span> <span class="mf">20.</span><span class="p">,</span> <span class="mf">32.</span><span class="p">,</span> <span class="mf">47.</span><span class="p">,</span> <span class="mf">51.</span><span class="p">,</span> 
+                             <span class="mf">71.</span><span class="p">,</span> <span class="mf">84.852</span><span class="p">])</span>
+<span class="n">lapse_rate</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">6.5</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.8</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">2.8</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+<span class="n">num_layers</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lapse_rate</span><span class="p">)</span>
+<span class="n">temperature_boundaries</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">layer_boundaries</span><span class="p">)</span>
+<span class="n">temperature_boundaries</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">288.15</span>
+<span class="n">pressure_boundaries</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">layer_boundaries</span><span class="p">)</span>
+<span class="n">pressure_boundaries</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1013.25</span>
+<span class="n">Rd</span> <span class="o">=</span> <span class="mf">287.05307</span>
+<span class="n">g</span> <span class="o">=</span> <span class="mf">9.80665</span>
+<span class="n">layer_top</span> <span class="o">=</span> <span class="n">layer_boundaries</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">layer_bottom</span> <span class="o">=</span> <span class="n">layer_boundaries</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">T_from_lapse</span><span class="p">(</span><span class="n">height_above_base</span><span class="p">,</span> <span class="n">lapse</span><span class="p">,</span> <span class="n">base_temp</span><span class="o">=</span><span class="mf">288.15</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">base_temp</span> <span class="o">-</span> <span class="n">lapse</span><span class="o">*</span><span class="n">height_above_base</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_layers</span><span class="p">):</span>
+    <span class="n">temperature_boundaries</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">T_from_lapse</span><span class="p">(</span><span class="n">layer_top</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">-</span><span class="n">layer_bottom</span><span class="p">[</span><span class="n">n</span><span class="p">],</span> 
+                            <span class="n">lapse_rate</span><span class="p">[</span><span class="n">n</span><span class="p">],</span>
+                            <span class="n">base_temp</span><span class="o">=</span><span class="n">temperature_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+
+<span class="n">temperature_bottom</span> <span class="o">=</span> <span class="n">temperature_boundaries</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">temperature_top</span> <span class="o">=</span> <span class="n">temperature_boundaries</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_layers</span><span class="p">):</span>
+    <span class="n">temp_ratio</span> <span class="o">=</span> <span class="n">temperature_boundaries</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="n">temperature_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">lapse_rate</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">pressure_boundaries</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pressure_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">temp_ratio</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="n">g</span><span class="o">/</span><span class="n">Rd</span><span class="o">/</span><span class="n">lapse_rate</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">*</span><span class="mf">1000.</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">pressure_boundaries</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">pressure_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">*</span>
+                    <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">g</span><span class="o">/</span><span class="n">Rd</span><span class="o">/</span><span class="n">temperature_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">*</span>
+                           <span class="p">(</span><span class="n">layer_boundaries</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">-</span><span class="n">layer_boundaries</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">])))</span>
+
+<span class="n">pressure_bottom</span> <span class="o">=</span> <span class="n">pressure_boundaries</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">pressure_top</span> <span class="o">=</span> <span class="n">pressure_boundaries</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+
+<span class="n">temp_min</span> <span class="o">=</span> <span class="o">-</span><span class="mi">100</span><span class="p">;</span> <span class="n">temp_max</span> <span class="o">=</span> <span class="mi">35</span><span class="p">;</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">temperature_boundaries</span> <span class="o">-</span> <span class="mf">273.15</span><span class="p">,</span> <span class="n">layer_boundaries</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Altitude [km]&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;US Standard Atmosphere&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">hlines</span><span class="p">(</span><span class="n">layer_top</span><span class="p">[</span><span class="n">n</span><span class="p">],</span> <span class="n">temp_min</span><span class="p">,</span> <span class="n">temp_max</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;grey&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xbound</span><span class="p">([</span><span class="n">temp_min</span><span class="p">,</span> <span class="n">temp_max</span><span class="p">])</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">layer_boundaries</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">pressure_boundaries</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0, 0.5, &#39;Pressure [hPa]&#39;)
+</pre></div>
+</div>
+<img alt="../_images/a61758ee534969aa3c6e7961e089f03dcee42c9371433733128641645681c5c8.png" src="../_images/a61758ee534969aa3c6e7961e089f03dcee42c9371433733128641645681c5c8.png" />
+</div>
+</div>
 </div>
 <div class="section" id="figure-1-8-summer-versus-winter-temperature-profiles">
 <h2>Figure 1.8: Summer versus Winter Temperature Profiles<a class="headerlink" href="#figure-1-8-summer-versus-winter-temperature-profiles" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
@@ -627,7 +691,7 @@ const thebe_selector_output = ".output, .cell_output"
       By Brian E. J. Rose<br/>
     
         &copy; Copyright 2023.<br/>
-      Last updated on 17 August 2023.<br/>
+      Last updated on 18 August 2023.<br/>
   </p>
 </footer>
 </main>
