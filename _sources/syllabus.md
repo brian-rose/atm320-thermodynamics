@@ -114,6 +114,15 @@ Dates are subject to change, but will be posted on Brightspace and announced num
 The Final Exam will be held Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
 
 
+## Attendance
+
+This is an in-person course, and attending class is an essential component of the learning process. All students are expected to attend all classes on time unless prior arrangements have been made with the instructor. There may be occasional hands-on exercises during class time.
+
+**If you need to miss a class** for a University-recognized reason, you must **email Professor Rose** ahead of time if at all possible and let me know.
+
+Lectures will be recorded to the extent possible. The videos will be provided to students who need to miss class for justified reasons. 
+
+
 ## Academic integrity
 
 Although students may work together, all homework assignments must be completed independently. Homework assignments that are substantially similar to other students will receive a zero for that assignment. Copying from other students on quizzes and exams may result in a zero for that work and referral for disciplinary action.
