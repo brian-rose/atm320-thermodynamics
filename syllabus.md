@@ -103,7 +103,13 @@ Both the TA and instructor will hold regular office hours each week for help out
 
 ## Exams
 
-There will be **two in-class mid-term exams** and a **final exam** during the University exam period. Dates for the mid-terms will be posted on Brightspace and announced numerous times. 
+There will be **two in-class mid-term exams** and a **final exam** during the University exam period. 
+
+_Tentative dates_ for the mid-term exams are:
+- Friday September 29
+- Friday November 3
+
+Dates are subject to change, but will be posted on Brightspace and announced numerous times. 
 
 The Final Exam will be held Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
 

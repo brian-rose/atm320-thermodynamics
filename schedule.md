@@ -87,7 +87,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 9/29
   - 16
-  - 
+  - **MIDTERM EXAM 1**
   -
 * - 10/2
   - 17
@@ -147,7 +147,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/3
   - 30
-  - 
+  - **MIDTERM EXAM 2**
   -
 * - 11/6
   - 31
