@@ -17,7 +17,7 @@ Instructor:
 Teaching Assistant:
 : **Peter Ansah**
 : email: pansah -at- albany.edu
-: office: TBD
+: office: ETEC 406
 : office hours: Tuesdays 3 - 4 pm and Thursdays 9:30 - 10:30 am
 
 Prerequisites:
