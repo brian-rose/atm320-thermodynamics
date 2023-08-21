@@ -203,7 +203,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **LAST DAY OF CLASSES**
 ```
 
-------------
+<!-- ------------
 0. Course overview and primers (2 class days)
     * Syllabus and overview
     * Physical problem solving (Appendix B)
@@ -226,4 +226,4 @@ The course outline closely follows the chapters in the book [_A First Course in 
     * Assignment 6 near the end
 
 **FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
-
+ -->
