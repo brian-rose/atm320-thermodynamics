@@ -15,13 +15,16 @@ Meeting time:
 : Monday / Wednesday / Friday 10:35 - 11:30 AM in ETEC 480
 
 Instructor:
-: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/) 
-
-Office hours:
-: TBD in ETEC 425
+: [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/)
+: email: brose -at- albany.edu 
+: office: ETEC 425
+: office hourse: Mondays, 2 - 3 pm (or by appointment)
 
 Teaching Assistant:
-: Peter Ansah _(office and office hours TBD)_
+: **Peter Ansah**
+: email: pansah -at- albany.edu
+: office: ETEC 406
+: office hours: Tuesdays 3 - 4 pm and Thursdays 9:30 - 10:30 am
 
 ## How to use this site
 
