@@ -17,3 +17,6 @@ parts:
       - file: notebooks/second-law
       - file: notebooks/moist-processes
       - file: notebooks/stability
+  - caption: Assignments
+    chapters:
+      - file: assignments/assignment1
