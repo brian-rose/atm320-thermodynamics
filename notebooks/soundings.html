@@ -171,6 +171,18 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Assignments
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../assignments/assignment1.html">
+   Assignment 1
+  </a>
+ </li>
+</ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
@@ -308,6 +320,11 @@ const thebe_selector_output = ".output, .cell_output"
      Definition
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#question-4">
+     Question 4
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -353,6 +370,11 @@ const thebe_selector_output = ".output, .cell_output"
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#definition">
      Definition
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#question-4">
+     Question 4
     </a>
    </li>
   </ul>
@@ -575,7 +597,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7feaa0f85d20&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fdf56ffd510&gt;]
 </pre></div>
 </div>
 <img alt="../_images/ce37e88024cf06cb37c5b693180f18f0d348cf7f26c29867f03a15a890925b8e.png" src="../_images/ce37e88024cf06cb37c5b693180f18f0d348cf7f26c29867f03a15a890925b8e.png" />
@@ -615,7 +637,7 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fea985ab970&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fdf4ea2afe0&gt;]
 </pre></div>
 </div>
 <img alt="../_images/7c3b8c49cb1c6c75a8c768577cfc7504c9ea5e78ddb6c500e0d33ae9c5cb61fa.png" src="../_images/7c3b8c49cb1c6c75a8c768577cfc7504c9ea5e78ddb6c500e0d33ae9c5cb61fa.png" />
@@ -877,6 +899,71 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <p>Still need to add pressure (and density) using piecewise linear lapse rate formula</p>
 </div>
+<div class="section" id="question-4">
+<h3>Question 4<a class="headerlink" href="#question-4" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
+<p>This is version of problem 1.6 but using python code to download and plot your sounding.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">### RUN THIS CODE </span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">from</span> <span class="nn">siphon.simplewebservice.wyoming</span> <span class="kn">import</span> <span class="n">WyomingUpperAir</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here is where you select which station and what date / time you want to plot.</p>
+<ul class="simple">
+<li><p>Take a look at the interactive web page http://weather.uwyo.edu/upperair/sounding.html to see a map of upper-air stations</p></li>
+<li><p>Find the three-letter code for the station you want to use</p></li>
+<li><p>Replace <code class="docutils literal notranslate"><span class="pre">WMW</span></code> in the line of code <code class="docutils literal notranslate"><span class="pre">station</span> <span class="pre">=</span> <span class="pre">'WMW'</span></code> in the code cell below with your three letter code</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">WMW</span></code> is the code for Maniwaki, Quebec. Please use a different station for your answer</p></li>
+</ul>
+</li>
+<li><p>Replace the year, month, day, and hour in the line of code <code class="docutils literal notranslate"><span class="pre">date</span> <span class="pre">=</span> <span class="pre">datetime(2023,</span> <span class="pre">8,</span> <span class="pre">25,</span> <span class="pre">0)</span></code> with a different date.</p></li>
+</ul>
+<p>Remember that soundings are routinely taken at 0 UTC and 12 UTC.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">station</span> <span class="o">=</span> <span class="s1">&#39;WMW&#39;</span>   <span class="c1"># modify to use a different station</span>
+<span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2023</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">hour</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># modify to use a different time</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">### RUN THIS CODE WITHOUT MODIFICATION</span>
+<span class="c1">#</span>
+<span class="c1">#  It will download your data and make a nicely labeled plot</span>
+<span class="c1">#</span>
+<span class="c1">###</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">WyomingUpperAir</span><span class="o">.</span><span class="n">request_data</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">station</span><span class="p">)</span>
+
+<span class="n">pticks</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">70</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">150</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">250</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">500</span><span class="p">,</span><span class="mi">700</span><span class="p">,</span><span class="mi">850</span><span class="p">,</span><span class="mi">925</span><span class="p">,</span><span class="mi">1000</span><span class="p">])</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mf">0.286</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">9</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;temperature&#39;</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;pressure&#39;</span><span class="p">]</span><span class="o">**</span><span class="n">k</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">invert_yaxis</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">pticks</span><span class="o">**</span><span class="n">k</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">pticks</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Pressure [hPa]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature [ºC]&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">station</span><span class="si">}</span><span class="s1">  </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/c8f7b9ef55e0074e6cd7672cf489ceb462533d27976d7bfe3657f1fb9838976b.png" src="../_images/c8f7b9ef55e0074e6cd7672cf489ceb462533d27976d7bfe3657f1fb9838976b.png" />
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -915,7 +1002,7 @@ const thebe_selector_output = ".output, .cell_output"
       By Brian E. J. Rose<br/>
     
         &copy; Copyright 2023.<br/>
-      Last updated on 22 August 2023.<br/>
+      Last updated on 28 August 2023.<br/>
   </p>
 </footer>
 </main>
