@@ -15,7 +15,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 
 * - Date (2023)
   - Class No.
-  - Topic and reading
+  - Topic
   - Notes
 * - 8/21
   - 0
@@ -23,23 +23,23 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 8/23
   - 1
-  - 
-  -
+  - Math review; Physical Problem Solving
+  - Appendix C response due
 * - 8/25
   - 2
-  - 
-  -
+  - Physical Problem Solving; Pressure and hydrostatic balance
+  - Appendix B response due
 * - 8/28
   - 3
-  - 
-  -
+  - Atmospheric Composition
+  - Chapter 1 response due; [Assignment 1](assignments/assignment1) handed out
 * - 8/30
   - 4
-  - 
-  -
+  - Temperature and observed temperature profiles
+  - Chapter 2 response due
 * - 9/1
   - 5
-  - 
+  - Thermodynamic systems and variables
   -
 * - 9/4
   - 
@@ -47,8 +47,8 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **NO CLASS** (Labor Day)
 * - 9/6
   - 6
-  - 
-  -
+  - Equation of state
+  - Chapter 3 response due; [Assignment 1](assignments/assignment1) due
 * - 9/8
   - 7
   - 
