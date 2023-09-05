@@ -20,3 +20,4 @@ parts:
   - caption: Assignments
     chapters:
       - file: assignments/assignment1
+      # - file: assignments/assignment2
