@@ -51,8 +51,8 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - Chapter 3 response due; [Assignment 1](assignments/assignment1) due
 * - 9/8
   - 7
-  - 
-  -
+  - Equation of state for moist air 
+  - [Assignment 2](assignments/assignment2) handed out
 * - 9/11
   - 8
   - 
