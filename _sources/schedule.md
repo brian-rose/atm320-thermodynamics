@@ -47,28 +47,28 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **NO CLASS** (Labor Day)
 * - 9/6
   - 6
-  - Equation of state
+  - Example problem 2.3, review of integrating separable equations
   - Chapter 3 response due; [Assignment 1](assignments/assignment1) due
 * - 9/8
   - 7
-  - Equation of state for moist air 
+  - Equation of state
   - [Assignment 2](assignments/assignment2) handed out
 * - 9/11
   - 8
-  - 
+  - Equation of state: lab demos
   - 
 * - 9/13
   - 9
-  - 
+  - Equation of state for moist air 
   -
 * - 9/15
   - 10
-  - 
-  -
+  - Buoyancy
+  - [Assignment 2](assignments/assignment2) due
 * - 9/18
   - 11
-  - 
-  -
+  - Hydrostatic balance (a more careful look)
+  - Chapter 4 response due
 * - 9/20
   - 12
   - 
