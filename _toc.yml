@@ -21,4 +21,4 @@ parts:
     chapters:
       - file: assignments/assignment1
       - file: assignments/assignment2
-      # - file: assignments/assignment3
+      - file: assignments/assignment3
