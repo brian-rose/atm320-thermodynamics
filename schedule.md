@@ -55,7 +55,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 2](assignments/assignment2) handed out
 * - 9/11
   - 8
-  - Equation of state: lab demos
+  - Equation of state for water vapor
   - 
 * - 9/13
   - 9
@@ -63,20 +63,20 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 9/15
   - 10
-  - Buoyancy
-  - [Assignment 2](assignments/assignment2) due
+  - Specific humidity and mixing ratio
+  - [Assignment 2](assignments/assignment2) due; [Assignment 3](assignments/assignment3) handed out
 * - 9/18
   - 11
-  - Hydrostatic balance (a more careful look)
-  - Chapter 4 response due
+  - Virtual temperature and buoyancy
+  - 
 * - 9/20
   - 12
-  - 
-  -
+  - Hydrostatic balance (a more careful look)
+  - Chapter 4 response due
 * - 9/22
   - 13
   - 
-  -
+  - [Assignment 3](assignments/assignment3) due
 * - 9/25
   - 14
   - 
