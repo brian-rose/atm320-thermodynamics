@@ -71,11 +71,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - 
 * - 9/20
   - 12
-  - Hydrostatic balance (a more careful look)
+  - Ideal gas expansion laboratory demo
   - Chapter 4 response due
 * - 9/22
   - 13
-  - 
+  - Hydrostatic balance (a more careful look)
   - [Assignment 3](assignments/assignment3) due
 * - 9/25
   - 14
