@@ -79,11 +79,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 3](assignments/assignment3) due
 * - 9/25
   - 14
-  - 
+  - Masses of air vs water columns; altitude dependence of g
   - 
 * - 9/27
   - 15
-  - 
+  - Homework review
   -
 * - 9/29
   - 16
@@ -91,7 +91,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 10/2
   - 17
-  - 
+  - Geopotential height, thickness, and the hypsometric equation
   -
 * - 10/4
   - 18
