@@ -95,12 +95,12 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 10/4
   - 18
-  - 
+  - Idealized temperature and pressure profiles
   -
 * - 10/6
   - 19
   - 
-  -
+  - 
 * - 10/9
   - 
   - 
