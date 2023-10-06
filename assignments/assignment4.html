@@ -56,6 +56,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Assignment 3" href="assignment3.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -176,7 +177,7 @@ const thebe_selector_output = ".output, .cell_output"
   Assignments
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="assignment1.html">
    Assignment 1
@@ -190,6 +191,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="assignment3.html">
    Assignment 3
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Assignment 4
   </a>
  </li>
 </ul>
@@ -396,12 +402,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="assignment-4">
 <h1>Assignment 4<a class="headerlink" href="#assignment-4" title="Permalink to this headline"><i class="fas fa-link"></i></a></h1>
-<p>Due Friday October 13 2023 (at start of class, or submitted electronically via Brightspace before class)</p>
+<p>Due Friday October 13 2023 (at start of class, or submitted electronically <strong>via Brightspace</strong> before class)</p>
 <p>Point values are indicated for each question.</p>
 <p>Total points: 30</p>
 <div class="section" id="question-1">
 <h2>Question 1<a class="headerlink" href="#question-1" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p><em>(Problem 4.3 of the text)</em></p>
+<p><em>4 points</em></p>
+<p><em>(Based on Problem 4.3 of the text)</em></p>
 <p>Show the mathematical steps leading from equation (4.17):</p>
 <div class="math notranslate nohighlight">
 \[ g(z) = \frac{G M_E}{(r_E + z)^2} \]</div>
@@ -411,42 +418,51 @@ const thebe_selector_output = ".output, .cell_output"
 <p>where</p>
 <div class="math notranslate nohighlight">
 \[ g_0 = \frac{G M_E}{r_E^2} \]</div>
+<p><em>HINT: Express the equation (4.17) in terms of a small non-dimensional variable <span class="math notranslate nohighlight">\(x =  \frac{z}{r_E}\)</span> and use a power series approximation for <span class="math notranslate nohighlight">\(g(x)\)</span> about the reference point <span class="math notranslate nohighlight">\(x=0\)</span>. See Appendix C.3 for a refresher on how that works.</em></p>
 </div>
 <div class="section" id="question-2">
 <h2>Question 2<a class="headerlink" href="#question-2" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p><em>5 points</em></p>
 <p><em>(Based on Problem 4.5 of the text)</em></p>
-<p>a) Show that for the <em>constant density</em> atmosphere, the top of the atmosphere must occur at a height <span class="math notranslate nohighlight">\(H\)</span> above the surface, where</p>
+<p>a) <em>(2 points)</em> Show that for the <em>constant density</em> atmosphere, the top of the atmosphere must occur at a height <span class="math notranslate nohighlight">\(H\)</span> above the surface, where</p>
 <div class="math notranslate nohighlight">
 \[ H = \frac{R_d T_0}{g} \]</div>
 <p>where <span class="math notranslate nohighlight">\(T_0\)</span> is the surface temperature.</p>
-<p>b) What is the temperature at the top of this atmosphere, i.e. <span class="math notranslate nohighlight">\(T(H)\)</span>?</p>
-<p>c) Based on your results above, comment on whether you think a truly constant density atmosphere could actually exist.</p>
+<p>b) <em>(2 points)</em> What is the temperature at the top of this atmosphere, i.e. <span class="math notranslate nohighlight">\(T(H)\)</span>?</p>
+<p>c) <em>(1 point)</em> Based on your results above, comment on whether you think a truly constant density atmosphere could actually exist.</p>
 </div>
 <div class="section" id="question-3">
 <h2>Question 3<a class="headerlink" href="#question-3" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p><em>14 points</em></p>
 <p><em>(Problem 4.6 of the text)</em></p>
-<p>a) Use the equation for <span class="math notranslate nohighlight">\(p(z)\)</span> for a <em>constant density</em> atmosphere to calculate the <em>approximate</em> height of the 1000, 850, and 500 hPa levels, <em>assuming</em> that the density thoughout the troposphere is the same as that at the surface (computed from <span class="math notranslate nohighlight">\(T_0 = 15\)</span>ºC and <span class="math notranslate nohighlight">\(p_0 = 1013.2\)</span> hPa).</p>
-<p>b) Repeat your calculation using the somewhat more accurate expression for <span class="math notranslate nohighlight">\(p(z)\)</span> in an <em>isothermal</em> atmosphere, <em>assuming</em> that the temperature of the entire atmosphere equals <span class="math notranslate nohighlight">\(T_0\)</span> as given above.</p>
-<p>c) Finally, repeat your calculation using the <em>most</em> accurate expression for <span class="math notranslate nohighlight">\(p(z)\)</span>, which in this case is the one for a <em>constant lapse rate</em> atmosphere.</p>
-<p>d) For each of the pressure levels given, calculate the errors (approximate minus true value) in meters that results from using the simpler constant density and isothermal approximations. Use a table having the following format to present your results: rows correspond to pressure levels; first three columns correspond to three model atmospheres; final two columns give errors (approximate value minus true) for the constant density and isothermal atmospheres. Record all values to a precision of 1 meter.</p>
-<p>e) From your 1000 and 850 hPa heights, obtain the layer thicknesses for this pair of pressure levels. Then, invert the hypsometric equation to find the layer mean virtual temperatures <span class="math notranslate nohighlight">\(\overline{T_v}\)</span> for the three model atmospheres.</p>
+<p>a) <em>(3 points)</em> Use the equation for <span class="math notranslate nohighlight">\(p(z)\)</span> for a <em>constant density</em> atmosphere to calculate the <em>approximate</em> height of the 1000, 850, and 500 hPa levels, <em>assuming</em> that the density thoughout the troposphere is the same as that at the surface (computed from <span class="math notranslate nohighlight">\(T_0 = 15\)</span>ºC and <span class="math notranslate nohighlight">\(p_0 = 1013.2\)</span> hPa).</p>
+<p>b) <em>(3 points)</em> Repeat your calculation using the somewhat more accurate expression for <span class="math notranslate nohighlight">\(p(z)\)</span> in an <em>isothermal</em> atmosphere, <em>assuming</em> that the temperature of the entire atmosphere equals <span class="math notranslate nohighlight">\(T_0\)</span> as given above.</p>
+<p>c) <em>(3 points)</em> Finally, repeat your calculation using the <em>most</em> accurate expression for <span class="math notranslate nohighlight">\(p(z)\)</span>, which in this case is the one for a <em>constant lapse rate</em> atmosphere.</p>
+<p>d) <em>(2 points)</em> For each of the pressure levels given, calculate the errors (approximate minus true value) in meters that results from using the simpler constant density and isothermal approximations. Use a table having the following format to present your results: rows correspond to pressure levels; first three columns correspond to three model atmospheres; final two columns give errors (approximate value minus true) for the constant density and isothermal atmospheres. Record all values to a precision of 1 meter.</p>
+<p>e) <em>(3 points)</em> For the three model atmosphere (parts a, b, and c): From your 1000 and 850 hPa heights, obtain the layer thicknesses for this pair of pressure levels. Then, invert the hypsometric equation to find the layer mean virtual temperatures <span class="math notranslate nohighlight">\(\overline{T_v}\)</span>.</p>
 </div>
 <div class="section" id="question-4">
 <h2>Question 4<a class="headerlink" href="#question-4" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p><em>4 points</em></p>
 <p><em>(Based on Problem 4.7 of the text)</em></p>
 <p>Assuming a constant lapse rate of 6.5 K km<span class="math notranslate nohighlight">\(^{-1}\)</span> and a surface pressure near 1000 hPa, what thickness value should correspond to surface temperatures near freezing?</p>
 </div>
 <div class="section" id="question-5">
 <h2>Question 5<a class="headerlink" href="#question-5" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p><em>4 points</em></p>
+<p><em>(Problem 4.8 of the text)</em></p>
 <p>On a certain day, the atmosphere has a temperature <span class="math notranslate nohighlight">\(T_0\)</span> of 20ºC and a pressure <span class="math notranslate nohighlight">\(p_0\)</span> of 1000 hPa at the surface (<span class="math notranslate nohighlight">\(z_0 = 0\)</span>). The lapse rate is <span class="math notranslate nohighlight">\(\Gamma_0 = 6\)</span> K km<span class="math notranslate nohighlight">\(^{-1}\)</span> from the surface to 3 km altitude; <span class="math notranslate nohighlight">\(\Gamma_1 = 3\)</span> K km<span class="math notranslate nohighlight">\(^{-1}\)</span> from 3 km to 6 km altitude. Find the pressure <span class="math notranslate nohighlight">\(p\)</span> at an altitude of 5 km.</p>
+<p><em>HINT: apply the piecewise linear temperature profile as in section 4.2.4. Start from the surface and work upward.</em></p>
 </div>
 <div class="section" id="question-6">
 <h2>Question 6<a class="headerlink" href="#question-6" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p><em>9 points</em></p>
+<p><em>(Problem 4.9 of the text)</em></p>
 <p>The hypsometric equation (4.30) gives the thickness <span class="math notranslate nohighlight">\(\Delta z\)</span> of a layer bounded by two pressure levels <span class="math notranslate nohighlight">\(p_1\)</span> and <span class="math notranslate nohighlight">\(p_2\)</span> in terms of the layer mean virtual temperature <span class="math notranslate nohighlight">\(\overline{T_v}\)</span> (or just the layer mean temperature <span class="math notranslate nohighlight">\(\overline{T}\)</span> if the air is assumed to be dry).</p>
-<p>a) For the special case of a <em>constant lapse rate</em> layer with bottom and top temperatures <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span>, respectively, find an exact expression for the layer mean temperature <span class="math notranslate nohighlight">\(\overline{T}\)</span> required by the hypsometric equation.</p>
-<p>b) If <span class="math notranslate nohighlight">\(T_1 = 280\)</span> K and <span class="math notranslate nohighlight">\(T_2 = 276\)</span> K, find <span class="math notranslate nohighlight">\(\overline{T}\)</span> to the nearest 0.1 K. Compare your result with a mean temperature derived from the much simpler arithmetic average of <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span> <em>(add them together and divide by two)</em></p>
-<p>c) Repeat (b), but for <span class="math notranslate nohighlight">\(T_2 = 240\)</span> K.</p>
-<p>d) Based on your results for (b) and ©, speculate on when it is probably safe to use the simple arithmetic average of <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span> as an approximation for the layer mean temperature.</p>
+<p>a) <em>(4 points)</em> For the special case of a <em>constant lapse rate</em> layer with bottom and top temperatures <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span>, respectively, find an exact expression for the layer mean temperature <span class="math notranslate nohighlight">\(\overline{T}\)</span> required by the hypsometric equation.</p>
+<p>b) <em>(2 points)</em> If <span class="math notranslate nohighlight">\(T_1 = 280\)</span> K and <span class="math notranslate nohighlight">\(T_2 = 276\)</span> K, find <span class="math notranslate nohighlight">\(\overline{T}\)</span> to the nearest 0.1 K. Compare your result with a mean temperature derived from the much simpler arithmetic average of <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span> <em>(add them together and divide by two)</em></p>
+<p>c) <em>(2 points)</em> Repeat (b), but for <span class="math notranslate nohighlight">\(T_2 = 240\)</span> K.</p>
+<p>d) <em>(1 points)</em> Based on your results for (b) and ©, speculate on when it is probably safe to use the simple arithmetic average of <span class="math notranslate nohighlight">\(T_1\)</span> and <span class="math notranslate nohighlight">\(T_2\)</span> as an approximation for the layer mean temperature.</p>
 </div>
 </div>
 
@@ -474,7 +490,14 @@ const thebe_selector_output = ".output, .cell_output"
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="assignment3.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Assignment 3</p>
+        </div>
+    </a>
 </div>
             
         </div>
@@ -485,7 +508,7 @@ const thebe_selector_output = ".output, .cell_output"
       By Brian E. J. Rose<br/>
     
         &copy; Copyright 2023.<br/>
-      Last updated on 4 October 2023.<br/>
+      Last updated on 6 October 2023.<br/>
   </p>
 </footer>
 </main>
