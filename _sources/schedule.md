@@ -95,24 +95,24 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 10/4
   - 18
-  - Idealized temperature and pressure profiles
+  - Midterm solutions; applications of the hypsometric equation
   -
 * - 10/6
   - 19
-  - 
-  - 
+  - Idealized temperature and pressure profiles
+  - [Assignment 4](assignments/assignment4) out
 * - 10/9
   - 
   - 
   - **NO CLASS** (Fall break)
 * - 10/11
   - 20
-  - 
+  - Standard Atmosphere and altimeter settings
   -
 * - 10/13
   - 21
-  - 
-  -
+  - Pressure-Volume work
+  - [Assignment 4](assignments/assignment4) due
 * - 10/16
   - 22
   - 
