@@ -115,16 +115,16 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 4](assignments/assignment4) due
 * - 10/16
   - 22
-  - 
+  - The First Law of thermodynamics
   -
-* - 10/19
+* - 10/18
   - 23
-  - 
-  -
+  - Adiabatic processes and potential temperature
+  - [Assignment 5](assignments/assignment5) out
 * - 10/20
   - 24
+  - Heat engines
   - 
-  -
 * - 10/23
   - 25
   - 
@@ -132,7 +132,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/25
   - 26
   - 
-  -
+  - [Assignment 5](assignments/assignment5) due
 * - 10/27
   - 27
   - 
