@@ -54,7 +54,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="6. The Second Law and Its Consequences" href="second-law.html" />
+    <link rel="next" title="7. The Second Law and Its Consequences" href="second-law.html" />
     <link rel="prev" title="4. Atmospheric Pressure" href="pressure.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -157,17 +157,17 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="second-law.html">
-   6. The Second Law and Its Consequences
+   7. The Second Law and Its Consequences
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="moist-processes.html">
-   7. Moist Processes
+   8. Moist Processes
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="stability.html">
-   8. Atmospheric Stability
+   9. Atmospheric Stability
   </a>
  </li>
 </ul>
@@ -305,6 +305,24 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   5. The First Law and Its Consequences
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plotting-dry-adiabats-on-a-skew-t-diagram">
+   6. Plotting dry adiabats on a Skew-T diagram
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -317,6 +335,24 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   5. The First Law and Its Consequences
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plotting-dry-adiabats-on-a-skew-t-diagram">
+   6. Plotting dry adiabats on a Skew-T diagram
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -326,7 +362,48 @@ const thebe_selector_output = ".output, .cell_output"
   <div class="section" id="the-first-law-and-its-consequences">
 <h1><span class="section-number">5. </span>The First Law and Its Consequences<a class="headerlink" href="#the-first-law-and-its-consequences" title="Permalink to this headline"><i class="fas fa-link"></i></a></h1>
 <p>Supplement to Chapter 5 of <a class="reference external" href="https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty"><em>A First Course in Atmospheric Thermodynamics</em> by Grant W. Petty, Sundog Publishing, 2008</a></p>
-<p><em>Under construction</em></p>
+</div>
+<div class="section" id="plotting-dry-adiabats-on-a-skew-t-diagram">
+<h1><span class="section-number">6. </span>Plotting dry adiabats on a Skew-T diagram<a class="headerlink" href="#plotting-dry-adiabats-on-a-skew-t-diagram" title="Permalink to this headline"><i class="fas fa-link"></i></a></h1>
+<p>Import necessary packages</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">from</span> <span class="nn">metpy.plots</span> <span class="kn">import</span> <span class="n">SkewT</span>
+<span class="kn">from</span> <span class="nn">siphon.simplewebservice.wyoming</span> <span class="kn">import</span> <span class="n">WyomingUpperAir</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Grab some data</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2023</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">hour</span><span class="o">=</span><span class="mi">00</span><span class="p">)</span> <span class="c1"># year, month, day, hour</span>
+<span class="n">station</span> <span class="o">=</span> <span class="s1">&#39;BUF&#39;</span>  <span class="c1"># station code for Buffalo, NY</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">WyomingUpperAir</span><span class="o">.</span><span class="n">request_data</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">station</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Make a plot</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">9</span><span class="p">))</span>
+<span class="n">skew</span> <span class="o">=</span> <span class="n">SkewT</span><span class="p">(</span><span class="n">fig</span><span class="o">=</span><span class="n">fig</span><span class="p">,</span> <span class="n">subplot</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">)</span>
+<span class="n">skew</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;pressure&#39;</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;temperature&#39;</span><span class="p">],</span> 
+        <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">skew</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">station</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">);</span>
+<span class="n">skew</span><span class="o">.</span><span class="n">plot_dry_adiabats</span><span class="p">()</span>  <span class="c1"># some nice automation from the MetPy package here</span>
+<span class="n">skew</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature (deg C)&#39;</span><span class="p">)</span>
+<span class="n">skew</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;pressure (hPa)&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/ffbf2a865c9972d6182133cccc03f803a3ab9816b4ad8b5381bb72e9225a8d66.png" src="../_images/ffbf2a865c9972d6182133cccc03f803a3ab9816b4ad8b5381bb72e9225a8d66.png" />
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -364,7 +441,7 @@ const thebe_selector_output = ".output, .cell_output"
     <a class='right-next' id="next-link" href="second-law.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">6. </span>The Second Law and Its Consequences</p>
+        <p class="prev-next-title"><span class="section-number">7. </span>The Second Law and Its Consequences</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -378,7 +455,7 @@ const thebe_selector_output = ".output, .cell_output"
       By Brian E. J. Rose<br/>
     
         &copy; Copyright 2023.<br/>
-      Last updated on 11 October 2023.<br/>
+      Last updated on 17 October 2023.<br/>
   </p>
 </footer>
 </main>

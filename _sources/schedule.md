@@ -115,16 +115,16 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 4](assignments/assignment4) due
 * - 10/16
   - 22
-  - 
+  - The First Law of thermodynamics
   -
-* - 10/19
+* - 10/18
   - 23
-  - 
-  -
+  - Adiabatic processes and potential temperature
+  - [Assignment 5](assignments/assignment5) out
 * - 10/20
   - 24
+  - Heat engines
   - 
-  -
 * - 10/23
   - 25
   - 
@@ -132,7 +132,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/25
   - 26
   - 
-  -
+  - [Assignment 5](assignments/assignment5) due
 * - 10/27
   - 27
   - 
@@ -203,6 +203,8 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **LAST DAY OF CLASSES**
 ```
 
+**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
+
 <!-- ------------
 0. Course overview and primers (2 class days)
     * Syllabus and overview
@@ -225,5 +227,5 @@ The course outline closely follows the chapters in the book [_A First Course in 
 8. Atmospheric stability (2 weeks)
     * Assignment 6 near the end
 
-**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
+
  -->
