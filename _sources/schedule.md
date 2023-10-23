@@ -123,27 +123,27 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 5](assignments/assignment5) out
 * - 10/20
   - 24
-  - Heat engines
+  - Homework solutions
   - 
 * - 10/23
   - 25
-  - 
+  - Enthalpy and work on a Skew-T diagram
   -
 * - 10/25
   - 26
-  - 
+  - Reversibility, entropy and the Second Law
   - [Assignment 5](assignments/assignment5) due
 * - 10/27
   - 27
-  - 
+  - Water vapor saturation and dewpoints
   -
 * - 10/30
   - 28
-  - 
+  - Latent heat of condensation and vaporization
   -
 * - 11/1
   - 29
-  - 
+  - Example problems: saturation, relative humdity, latent heat
   -
 * - 11/3
   - 30
@@ -151,15 +151,15 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/6
   - 31
-  - 
+  - The Clausius-Clapeyron Equation
   -
 * - 11/8
   - 32
-  - 
+  - Vapor lines and Lifting Condensation Level
   -
 * - 11/10
   - 33
-  - 
+  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
   -
 * - 11/13
   - 34
@@ -171,7 +171,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/17
   - 36
-  - 
+  - Atmospheric Stability (start of chapter 8)
   -
 * - 11/20
   - 37
@@ -199,7 +199,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 12/4
   - 41
-  - 
+  - Pre-exam review Q&A
   - **LAST DAY OF CLASSES**
 ```
 
