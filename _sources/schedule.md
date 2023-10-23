@@ -127,23 +127,23 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - 
 * - 10/23
   - 25
-  - Enthalpy and work on a Skew-T diagram
+  - Dry adiabatic lapse rate
   -
 * - 10/25
   - 26
-  - Reversibility, entropy and the Second Law
+  - Enthalpy, cyclic processes and work on a Skew-T diagram
   - [Assignment 5](assignments/assignment5) due
 * - 10/27
   - 27
-  - Water vapor saturation and dewpoints
+  - Reversibility, entropy and the Second Law
   -
 * - 10/30
   - 28
-  - Latent heat of condensation and vaporization
+  - Water vapor saturation and dewpoints
   -
 * - 11/1
   - 29
-  - Example problems: saturation, relative humdity, latent heat
+  - Latent heat and example saturation problems
   -
 * - 11/3
   - 30
