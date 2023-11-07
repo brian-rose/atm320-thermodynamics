@@ -24,3 +24,4 @@ parts:
       - file: assignments/assignment3
       - file: assignments/assignment4
       - file: assignments/assignment5
+      - file: assignments/assignment6

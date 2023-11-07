@@ -143,7 +143,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/1
   - 29
-  - Latent heat and example saturation problems
+  - Midterm exam review
   -
 * - 11/3
   - 30
@@ -151,24 +151,24 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/6
   - 31
-  - The Clausius-Clapeyron Equation
+  - Latent heat and example saturation problems
   -
 * - 11/8
   - 32
-  - Vapor lines and Lifting Condensation Level
-  -
+  - The Clausius-Clapeyron Equation
+  - [Assignment 6](assignments/assignment6) out
 * - 11/10
   - 33
-  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
+  - Vapor lines and Lifting Condensation Level
   -
 * - 11/13
   - 34
-  - 
+  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
   -
 * - 11/15
   - 35
-  - 
-  -
+  - Wet bulb temperature and applications
+  - [Assignment 6](assignments/assignment6) due
 * - 11/17
   - 36
   - Atmospheric Stability (start of chapter 8)
