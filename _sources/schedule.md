@@ -155,27 +155,27 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/8
   - 32
-  - The Clausius-Clapeyron Equation
+  - The Clausius-Clapeyron Equation (introduction)
   - [Assignment 6](assignments/assignment6) out
 * - 11/10
   - 33
-  - Vapor lines and Lifting Condensation Level
+  - The Clausius-Clapeyron Equation (details)
   -
 * - 11/13
   - 34
-  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
+  - Vapor lines and Lifting Condensation Level
   -
 * - 11/15
   - 35
-  - Wet bulb temperature and applications
+  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
   - [Assignment 6](assignments/assignment6) due
 * - 11/17
   - 36
-  - Atmospheric Stability (start of chapter 8)
+  - Wet bulb temperature and applications
   -
 * - 11/20
   - 37
-  - 
+  - Atmospheric Stability (start of chapter 8)
   -
 * - 11/22
   - 
