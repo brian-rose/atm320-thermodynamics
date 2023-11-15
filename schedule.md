@@ -100,7 +100,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/6
   - 19
   - Idealized temperature and pressure profiles
-  - [Assignment 4](assignments/assignment4) out
+  - [Assignment 4](assignments/assignment4) handed out
 * - 10/9
   - 
   - 
@@ -120,7 +120,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/18
   - 23
   - Adiabatic processes and potential temperature
-  - [Assignment 5](assignments/assignment5) out
+  - [Assignment 5](assignments/assignment5) handed out
 * - 10/20
   - 24
   - Homework solutions
@@ -156,7 +156,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/8
   - 32
   - The Clausius-Clapeyron Equation (introduction)
-  - [Assignment 6](assignments/assignment6) out
+  - [Assignment 6](assignments/assignment6) handed out
 * - 11/10
   - 33
   - The Clausius-Clapeyron Equation (details)
@@ -167,12 +167,12 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 11/15
   - 35
-  - The Moist Adiabatic Lapse Rate and equivalent potential temperature
+  - The Moist Adiabatic Lapse Rate 
   - [Assignment 6](assignments/assignment6) due
 * - 11/17
   - 36
-  - Wet bulb temperature and applications
-  -
+  - Equivalent potential temperature, wet bulb temperature and applications
+  - Assignment 7 handed out
 * - 11/20
   - 37
   - Atmospheric Stability (start of chapter 8)
@@ -188,7 +188,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/27
   - 38
   - 
-  -
+  - Assignment 7 due
 * - 11/29
   - 39
   - 
