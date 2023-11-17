@@ -172,7 +172,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/17
   - 36
   - Equivalent potential temperature, wet bulb temperature and applications
-  - Assignment 7 handed out
+  - [Assignment 7](assignments/assignment7) handed out
 * - 11/20
   - 37
   - Atmospheric Stability (start of chapter 8)
@@ -188,7 +188,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/27
   - 38
   - 
-  - Assignment 7 due
+  - [Assignment 7](assignments/assignment7) due
 * - 11/29
   - 39
   - 
