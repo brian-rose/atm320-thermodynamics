@@ -342,6 +342,11 @@ const thebe_selector_output = ".output, .cell_output"
    Plotting dewpoint temperatures on a Skew-T diagram
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adding-moist-adiabats-to-the-skew-t">
+   Adding moist adiabats to the Skew-T
+  </a>
+ </li>
 </ul>
 
             </nav>
@@ -375,6 +380,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#plotting-dewpoint-temperatures-on-a-skew-t-diagram">
    Plotting dewpoint temperatures on a Skew-T diagram
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adding-moist-adiabats-to-the-skew-t">
+   Adding moist adiabats to the Skew-T
   </a>
  </li>
 </ul>
@@ -493,6 +503,23 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="cell_output docutils container">
 <img alt="../_images/62a281c0e62a827ecef4a5a484efef12236cbfa03594457a1a4ab10b75e38c71.png" src="../_images/62a281c0e62a827ecef4a5a484efef12236cbfa03594457a1a4ab10b75e38c71.png" />
+</div>
+</div>
+</div>
+<div class="section" id="adding-moist-adiabats-to-the-skew-t">
+<h2>Adding moist adiabats to the Skew-T<a class="headerlink" href="#adding-moist-adiabats-to-the-skew-t" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
+<p>Let’s now add the final important set of reference lines to our plot: the <em>moist adiabats</em>. These lines represent the temperature changes experienced by a <em>saturated</em> rising air parcel.</p>
+<p>As the parcel cools through adiabatic expansion, its saturation vapor pressure decreases. The resulting condensation of water vapor releases latent heat into the air parcel, which causes some warming which partially offsets the adiabatic cooling. As a result, temperature decreases <em>less rapidly with height</em> compared to an unsaturated parcel.</p>
+<p>Compare the slopes of the moist adiabats (light blue) and dry adiabats (light red) in this Skew-T:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">skew</span><span class="o">.</span><span class="n">plot_moist_adiabats</span><span class="p">()</span>
+<span class="n">fig</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/ac119849af3a346cc38a297e9bbd61f629a2cb291159ac54f0c9c48e220abfa1.png" src="../_images/ac119849af3a346cc38a297e9bbd61f629a2cb291159ac54f0c9c48e220abfa1.png" />
 </div>
 </div>
 </div>
