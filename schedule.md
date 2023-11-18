@@ -175,7 +175,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 7](assignments/assignment7) handed out
 * - 11/20
   - 37
-  - Atmospheric Stability (start of chapter 8)
+  - Dry Static Stability
   -
 * - 11/22
   - 
@@ -187,15 +187,15 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **NO CLASS** (Thanksgiving break)
 * - 11/27
   - 38
-  - 
+  - Brunt-Väisäila frequency; Conditional and potential instability
   - [Assignment 7](assignments/assignment7) due
 * - 11/29
   - 39
-  - 
+  - Parcel stability; CIN and CAPE
   -
 * - 12/1
   - 40
-  - 
+  - Applications of stability indices
   -
 * - 12/4
   - 41
