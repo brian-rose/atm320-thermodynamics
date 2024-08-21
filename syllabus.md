@@ -1,24 +1,24 @@
-# Syllabus (AATM 320, Fall 2023)
+# Syllabus (AATM 320, Fall 2024)
 
 ## Course information
 
 Class number:
-: 5299
+: 5153
 
 Meeting time:
-: Monday / Wednesday / Friday, 10:35 - 11:30 AM in ETEC 480
+: Monday / Wednesday / Friday, 10:35 - 11:30 AM in ETEC 482
 
 Instructor:
 : [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/)
 : email: brose -at- albany.edu 
 : office: ETEC 425
-: office hourse: Mondays, 2 - 3 pm (or by appointment)
+: office hourse: TBD
 
 Teaching Assistant:
-: **Peter Ansah**
-: email: pansah -at- albany.edu
-: office: ETEC 406
-: office hours: Tuesdays 3 - 4 pm and Thursdays 9:30 - 10:30 am
+: **Ada Ellingworth**
+: email: aellingworth -at- albany.edu
+: office: 
+: office hours: TBD
 
 Prerequisites:
 : A ATM 211, A PHY 150 or 151 or T PHY151, A MAT 214
@@ -34,7 +34,7 @@ Course Objective:
 
 Course website:
 : [https://brian-rose.github.io/atm320-thermodynamics](https://brian-rose.github.io/atm320-thermodynamics)
-: Some content will be served through the Brightspace page for this course
+: Some content will be served through the access-controlled Brightspace page for this course
 
 
 ## Grading 
@@ -45,7 +45,7 @@ Course website:
 - Two in-class exams: 15% each
 - Final exam: 30%
 
-_The final exam will be held Thursday December 7 2023, 10:30 am - 12:30 pm)_
+_The final exam will be held Tuesday December 17 2024, 1:00 - 3:00 pm)_
 
 ### Grading policies
 
@@ -106,12 +106,12 @@ Both the TA and instructor will hold regular office hours each week for help out
 There will be **two in-class mid-term exams** and a **final exam** during the University exam period. 
 
 _Tentative dates_ for the mid-term exams are:
-- Friday September 29
-- Friday November 3
+- Friday October 4
+- Friday November 8
 
 Dates are subject to change, but will be posted on Brightspace and announced numerous times. 
 
-The Final Exam will be held Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
+The Final Exam will be held Tuesday December 17 2024, 1:00 - 3:00 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202024%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
 
 
 ## Attendance
@@ -155,5 +155,5 @@ The outline of the course closely follows the chapters in Petty's book. The prec
 7. Moist processes 
 8. Atmospheric stability 
 
-**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
+**FINAL EXAM** Tuesday December 17 2024, 1:00 - 3:00 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202024%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
 

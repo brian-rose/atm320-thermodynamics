@@ -4,7 +4,7 @@ Here you can find the subject matter and assigned reading for every class day as
 
 **Please check back here frequently** as the schedule is subject to change.
 
-The class meets **every Monday, Wednesday, Friday 10:35 - 11:30 AM** in **ETEC 480**.
+The class meets **every Monday, Wednesday, Friday 10:35 - 11:30 AM** in **ETEC 482**.
 
 The course outline closely follows the chapters in the book [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty)
 
@@ -17,187 +17,187 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - Class No.
   - Topic
   - Notes
-* - 8/21
+* - 8/26
   - 0
   - Course overview
   -
-* - 8/23
+* - 8/28
   - 1
   - Math review; Physical Problem Solving
   - Appendix C response due
-* - 8/25
+* - 8/30
   - 2
   - Physical Problem Solving; Pressure and hydrostatic balance
   - Appendix B response due
-* - 8/28
-  - 3
-  - Atmospheric Composition
-  - Chapter 1 response due; [Assignment 1](assignments/assignment1) handed out
-* - 8/30
-  - 4
-  - Temperature and observed temperature profiles
-  - Chapter 2 response due
-* - 9/1
-  - 5
-  - Thermodynamic systems and variables
-  -
-* - 9/4
+* - 9/2
   - 
   - 
   - **NO CLASS** (Labor Day)
+* - 9/4
+  - 3
+  - Atmospheric Composition
+  - 
 * - 9/6
+  - 4
+  - Temperature and observed temperature profiles
+  - 
+* - 9/9
+  - 5
+  - Thermodynamic systems and variables
+  -
+* - 9/11
   - 6
   - Example problem 2.3, review of integrating separable equations
-  - Chapter 3 response due; [Assignment 1](assignments/assignment1) due
-* - 9/8
+  - 
+* - 9/13
   - 7
   - Equation of state
-  - [Assignment 2](assignments/assignment2) handed out
-* - 9/11
+  - 
+* - 9/16
   - 8
   - Equation of state for water vapor
   - 
-* - 9/13
+* - 9/18
   - 9
   - Equation of state for moist air 
   -
-* - 9/15
+* - 9/20
   - 10
   - Specific humidity and mixing ratio
-  - [Assignment 2](assignments/assignment2) due; [Assignment 3](assignments/assignment3) handed out
-* - 9/18
+  - 
+* - 9/23
   - 11
   - Virtual temperature and buoyancy
   - 
-* - 9/20
+* - 9/25
   - 12
   - Ideal gas expansion laboratory demo
-  - Chapter 4 response due
-* - 9/22
+  - 
+* - 9/27
   - 13
   - Hydrostatic balance (a more careful look)
-  - [Assignment 3](assignments/assignment3) due
-* - 9/25
+  - 
+* - 9/30
   - 14
   - Masses of air vs water columns; altitude dependence of g
   - 
-* - 9/27
+* - 10/2
   - 15
   - Homework review
   -
-* - 9/29
+* - 10/4
   - 16
   - **MIDTERM EXAM 1**
   -
-* - 10/2
+* - 10/7
   - 17
   - Geopotential height, thickness, and the hypsometric equation
   -
-* - 10/4
+* - 10/9
   - 18
   - Midterm solutions; applications of the hypsometric equation
   -
-* - 10/6
+* - 10/11
   - 19
   - Idealized temperature and pressure profiles
-  - [Assignment 4](assignments/assignment4) handed out
-* - 10/9
+  - 
+* - 10/14
   - 
   - 
   - **NO CLASS** (Fall break)
-* - 10/11
+* - 10/16
   - 20
   - Standard Atmosphere and altimeter settings
   -
-* - 10/13
+* - 10/18
   - 21
   - Pressure-Volume work
-  - [Assignment 4](assignments/assignment4) due
-* - 10/16
+  - 
+* - 10/21
   - 22
   - The First Law of thermodynamics
   -
-* - 10/18
+* - 10/23
   - 23
   - Adiabatic processes and potential temperature
-  - [Assignment 5](assignments/assignment5) handed out
-* - 10/20
+  - 
+* - 10/25
   - 24
   - Homework solutions
   - 
-* - 10/23
+* - 10/28
   - 25
   - Dry adiabatic lapse rate
   -
-* - 10/25
+* - 10/30
   - 26
   - Enthalpy, cyclic processes and work on a Skew-T diagram
-  - [Assignment 5](assignments/assignment5) due
-* - 10/27
+  - 
+* - 11/1
   - 27
   - Reversibility, entropy and the Second Law
   -
-* - 10/30
+* - 11/4
   - 28
   - Water vapor saturation and dewpoints
   -
-* - 11/1
+* - 11/6
   - 29
   - Midterm exam review
   -
-* - 11/3
+* - 11/8
   - 30
   - **MIDTERM EXAM 2**
   -
-* - 11/6
+* - 11/11
   - 31
   - Latent heat and example saturation problems
   -
-* - 11/8
+* - 11/13
   - 32
   - The Clausius-Clapeyron Equation (introduction)
-  - [Assignment 6](assignments/assignment6) handed out
-* - 11/10
+  - 
+* - 11/15
   - 33
   - The Clausius-Clapeyron Equation (details)
   -
-* - 11/13
+* - 11/18
   - 34
   - Vapor lines and Lifting Condensation Level
   -
-* - 11/15
+* - 11/20
   - 35
   - The Moist Adiabatic Lapse Rate 
-  - [Assignment 6](assignments/assignment6) due
-* - 11/17
+  - 
+* - 11/22
   - 36
   - Equivalent potential temperature, wet bulb temperature and applications
-  - [Assignment 7](assignments/assignment7) handed out
-* - 11/20
+  - 
+* - 11/25
   - 37
   - Dry Static Stability
   -
-* - 11/22
-  - 
-  - 
-  - **NO CLASS** (Thanksgiving break)
-* - 11/24
-  - 
-  - 
-  - **NO CLASS** (Thanksgiving break)
 * - 11/27
+  - 
+  - 
+  - **NO CLASS** (Thanksgiving break)
+* - 11/29
+  - 
+  - 
+  - **NO CLASS** (Thanksgiving break)
+* - 12/2
   - 38
   - Brunt-Väisäila frequency
-  - [Assignment 7](assignments/assignment7) due
-* - 11/29
+  - 
+* - 12/4
   - 39
   - Conditional and potential instability
   -
-* - 12/1
+* - 12/6
   - 40
   - CIN and CAPE
   -
-* - 12/4
+* - 12/9
   - 41
   - Pre-exam review Q&A
   - **LAST DAY OF CLASSES**
