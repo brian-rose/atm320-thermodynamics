@@ -4,10 +4,7 @@ channels:
 dependencies:
   - jupyter-book
   - jupyterlab
-  - jupyter_server
   - xarray
   - metpy
   - siphon
-  - pip
-  - pip:
-      - sphinx-pythia-theme
+  - sphinx-pythia-theme
