@@ -17,8 +17,8 @@ Instructor:
 Teaching Assistant:
 : **Ada Ellingworth**
 : email: aellingworth -at- albany.edu
-: office: 
-: office hours: TBD
+: office: ETEC 424F
+: office hours: Thursdays 10:30 - 11:30 AM
 
 Prerequisites:
 : A ATM 211, A PHY 150 or 151 or T PHY151, A MAT 214
@@ -77,10 +77,11 @@ The course will closely follow this book, and students will be reading it cover-
 
 ### Reading assignments
 
-Reading assignments will be clearly posted on Brightspace. The reading is required, and must be **completed before class** on the day indicated. It is important for every student to keep up with this schedule.
+Reading assignments will be clearly posted on Brightspace. The reading is required, and must be **completed the night before class**. 
 
 To incentivize this, 10% of the course grade is given for reading responses. We will use a Discussion Board on Brightspace for this purpose. To earn their full 10%, each student must **post at least one substantive comment, question, or response** on the Discussion board for every assigned reading unit.
 
+Due dates and times are clearly indicated on Brightspace. It is important for every student to keep up with this schedule. Responses are due the night before class so that I have a chance to address your questions and comments in lecture.
 
 ### Other useful reading
 
@@ -96,7 +97,7 @@ Assignments will be handed out in class, with due dates visible on Brightspace. 
 
 Students may hand in their work on paper at the beginning of class, or electronically via Brightspace. Either way, students are responsible for making sure that their work is **legible** and **clearly communicated**.
 
-We will provide substantial guidance on the principes of physical problem solving, and hold students to a high standard of clarity.
+We will provide substantial guidance on the principes of physical problem solving, and **hold students to a high standard of clarity**.
 
 Both the TA and instructor will hold regular office hours each week for help outside of class time.
 

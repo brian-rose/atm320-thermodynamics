@@ -25,8 +25,8 @@ Instructor:
 Teaching Assistant:
 : **Ada Ellingworth**
 : email: aellingworth -at- albany.edu
-: office: 
-: office hours: TBD
+: office: ETEC 424F
+: office hours: Thursdays 10:30 - 11:30 AM
 
 ## How to use this site
 
