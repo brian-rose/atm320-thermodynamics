@@ -126,9 +126,12 @@ Lectures will be recorded to the extent possible. The videos will be provided to
 
 ## Academic integrity
 
-Although students may work together, all homework assignments must be completed independently. Homework assignments that are substantially similar to other students will receive a zero for that assignment. Copying from other students on quizzes and exams may result in a zero for that work and referral for disciplinary action.
+Although students may discuss their work together, all homework assignments must be completed independently. Homework assignments that are *substantially similar to other students* or *substantially similar to online sources* without appropriate attribution
+will receive a zero for that assignment. Copying from other students on quizzes and exams will result in a zero for that work. Consistent with University regulations, the instructor will complete and file a Violoation of Academic Integrity Report in all such cases.
 
 It is every student's responsibility to become familiar with the standards of academic integrity at UAlbany. Claims of ignorance, of unintentional error, or of academic or personal pressures are not sufficient reasons for violations of academic integrity. Please refer to the UAlbany academic integrity policies here: [https://www.albany.edu/undergraduate_bulletin/regulations.html](https://www.albany.edu/undergraduate_bulletin/regulations.html)
+
+Professor Rose is happy and willing to discuss these issues at any time! 
 
 
 ## Mental Health and Well-being
