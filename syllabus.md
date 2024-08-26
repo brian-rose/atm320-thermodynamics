@@ -54,17 +54,17 @@ _The final exam will be held Tuesday December 17 2024, 1:00 - 3:00 pm)_
     - **Exception**: _one late day per student_ to be used at your discretion during the semester.
 - Percentage grades will be converted into letter grades based on the following formula:
     - A > 87.0
-    - 83.3 < A- ≤87.0
-    - 79.6 < B+ ≤83.3
-    - 75.9 < B ≤79.6
-    - 72.2 < B- ≤75.9
-    - 68.5 < C+ ≤72.2
-    - 64.8 < C ≤ 68.5
-    - 61.1 < C- ≤ 64.8
-    - 57.4 < D+ ≤ 61.1
-    - 53.7 < D ≤ 57.4
-    - 50.0 < D- ≤ 53.7 
-    - E ≤ 50.0 
+    - 83.3 < A- <= 87.0
+    - 79.6 < B+ <= 83.3
+    - 75.9 < B <= 79.6
+    - 72.2 < B- <= 75.9
+    - 68.5 < C+ <= 72.2
+    - 64.8 < C <= 68.5
+    - 61.1 < C- <= 64.8
+    - 57.4 < D+ <= 61.1
+    - 53.7 < D <= 57.4
+    - 50.0 < D- <= 53.7 
+    - E <= 50.0 
 
 
 ## Textbooks and reading
@@ -93,7 +93,7 @@ Homework assignments will form an essential part of the learning process in this
 
 In some cases, assigned problems may require students to access some observed data and carry out some computer-based analysis. We will provide plenty of guidance on any required computations. No special software beyond a web browser will be needed for this work.
 
-Assignments will be handed out in class, with due dates visible on Brightspace. Assignments will typically be due one week after they are handed out. Assignments are **due by the beginning of class** on the stated due date.
+Assignments will be distributed in class and on Brightspace, and will typically be due one week after they are handed out. Assignments are **due by the beginning of class** on the stated due date.
 
 Students may hand in their work on paper at the beginning of class, or electronically via Brightspace. Either way, students are responsible for making sure that their work is **legible** and **clearly communicated**.
 
@@ -107,6 +107,7 @@ Both the TA and instructor will hold regular office hours each week for help out
 There will be **two in-class mid-term exams** and a **final exam** during the University exam period. 
 
 _Tentative dates_ for the mid-term exams are:
+
 - Friday October 4
 - Friday November 8
 
@@ -121,7 +122,7 @@ This is an in-person course, and attending class is an essential component of th
 
 **If you need to miss a class** for a University-recognized reason, you must **email Professor Rose** ahead of time if at all possible and let me know.
 
-Lectures will be recorded to the extent possible. The videos will be provided to students who need to miss class for justified reasons. 
+Lectures will be recorded to the extent possible, and provided to students who miss class for justified reasons. 
 
 
 ## Academic integrity
