@@ -1,0 +1,3 @@
+#!/bin/bash
+#  a script to render the syllabus into pdf
+pandoc -V geometry:margin=1in --pdf-engine=xelatex -o syllabus.pdf syllabus.md
