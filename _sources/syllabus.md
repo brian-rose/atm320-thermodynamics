@@ -73,7 +73,7 @@ _The final exam will be held Tuesday December 17 2024, 1:00 - 3:00 pm)_
 
 The **required text** is [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty).
 
-The course will closely follow this book, and students will be reading it cover-to-cover. Having your own copy is highly recommended. One copy will be on reserve at the Science Library.
+The course will closely follow this book, and students will be reading it cover-to-cover. Having your own copy is highly recommended. *One copy is on reserve at the University Library.*
 
 ### Reading assignments
 
