@@ -5,9 +5,9 @@
 
 ## About
 
-This repository holds the source material for the website for AATM 320: Atmospheric Thermodynamics (Fall 2023 edition). 
+This repository holds the source material for the website for AATM 320: Atmospheric Thermodynamics. 
 
-The rendered site is available at <https://brian-rose.github.io/atm320-thermodynamics/>
+The rendered site (for the current year) is available at <https://brian-rose.github.io/atm320-thermodynamics/>. Links to the sites for previous years can be found at <https://www.atmos.albany.edu/facstaff/brose/classes/>.
 
 ATM 320 is a required junior-level course in the [Atmospheric Science BS](https://www.albany.edu/daes/programs/bs-atmospheric-science) offered by the [Department of Atmospheric & Environmental Sciences](https://www.albany.edu/daes) at the [University at Albany](https://www.albany.edu).
 

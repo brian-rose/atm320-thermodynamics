@@ -5,7 +5,7 @@ title: Atmospheric Thermodynamics
 author: Brian E. J. Rose
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
 email: brose@albany.edu
-copyright: "2023"
+copyright: "2024"
 
 execute:
   # To execute notebooks via a binder instead, replace 'cache' with 'binder'

@@ -13,7 +13,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 :header-rows: 1
 :name: schedule
 
-* - Date (2023)
+* - Date (2024)
   - Class No.
   - Topic
   - Notes
@@ -203,5 +203,4 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - **LAST DAY OF CLASSES**
 ```
 
-**FINAL EXAM** Thursday December 7 10:30 am - 12:30 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202023%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1))
-
+**FINAL EXAM** Tuesday December 17 1:00 pm - 3:00 pm (per the [University exam calendar](https://livealbany.sharepoint.com/sites/web_registrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams%2FFall%202024%20Final%20Exam%20Schedule%20for%20Web%2Epdf&parent=%2Fsites%2Fweb%5Fregistrar%2FShared%20Documents%2FFinal%20Exams&p=true&ga=1)
