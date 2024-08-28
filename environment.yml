@@ -2,6 +2,7 @@ name: atm320
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - jupyter-book
   - jupyterlab
   - xarray
