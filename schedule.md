@@ -36,7 +36,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/4
   - 3
   - Atmospheric Composition
-  - 
+  - Chapter 1 response due
 * - 9/6
   - 4
   - Temperature and observed temperature profiles
