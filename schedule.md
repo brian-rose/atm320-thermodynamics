@@ -8,6 +8,7 @@ The class meets **every Monday, Wednesday, Friday 10:35 - 11:30 AM** in **ETEC 4
 
 The course outline closely follows the chapters in the book [_A First Course in Atmospheric Thermodynamics_ by Grant W. Petty, Sundog Publishing, 2008](https://sundogpublishingstore.myshopify.com/products/a-first-course-in-atmospheric-thermodynamics-g-w-petty)
 
+*Note that exact due dates / times are given on Brightspace! The reading assignments are typically due by **11:59 pm the night before** we begin covering the material in class.*
 
 ```{list-table} Class schedule
 :header-rows: 1
@@ -44,7 +45,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/9
   - 5
   - Thermodynamic systems and variables
-  -
+  - Chapter 2 response due
 * - 9/11
   - 6
   - Example problem 2.3, review of integrating separable equations
@@ -52,7 +53,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/13
   - 7
   - Equation of state
-  - 
+  - Chapter 3 response due
 * - 9/16
   - 8
   - Equation of state for water vapor
