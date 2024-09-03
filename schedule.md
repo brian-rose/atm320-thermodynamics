@@ -65,7 +65,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/20
   - 10
   - Specific humidity and mixing ratio
-  - [Assignment 2](assignments/assignment2) due; [Assignment 3](assignments/assignment3) handed out
+  - [Assignment 2](assignments/assignment2) due; Assignment 3 handed out
 * - 9/23
   - 11
   - Virtual temperature and buoyancy
@@ -77,7 +77,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/27
   - 13
   - Hydrostatic balance (a more careful look)
-  - [Assignment 3](assignments/assignment3) due
+  - Assignment 3 due
 * - 9/30
   - 14
   - Masses of air vs water columns; altitude dependence of g

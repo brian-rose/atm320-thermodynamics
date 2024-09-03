@@ -1,0 +1,29 @@
+version: 1
+project:
+  title: Atmospheric Thermodynamics
+  github: https://github.com/brian-rose/atm320-thermodynamics/
+  authors:
+    - name: Brian E. J. Rose
+  copyright: '2024'
+  toc:
+    - file: home.md
+    - title: Course materials
+      children:
+        - file: schedule.md
+        - file: syllabus.md
+    - title: Lecture chapters
+      children:
+        - file: notebooks/composition-structure.ipynb
+        - file: notebooks/thermo-systems.ipynb
+        - file: notebooks/physical-properties.ipynb
+        - file: notebooks/pressure.ipynb
+        - file: notebooks/first-law.ipynb
+        - file: notebooks/second-law.ipynb
+        - file: notebooks/moist-processes.ipynb
+        - file: notebooks/stability.ipynb
+    - title: Assignments
+      children:
+        - file: assignments/assignment1.ipynb
+        - file: assignments/assignment2.md
+site:
+  template: book-theme
