@@ -16,10 +16,10 @@ parts:
       - file: notebooks/second-law
       - file: notebooks/moist-processes
       - file: notebooks/stability
-  # - caption: Assignments
-    # chapters:
-      # - file: assignments/assignment1
-      # - file: assignments/assignment2
+  - caption: Assignments
+    chapters:
+      - file: assignments/assignment1
+      - file: assignments/assignment2
       # - file: assignments/assignment3
       # - file: assignments/assignment4
       # - file: assignments/assignment5

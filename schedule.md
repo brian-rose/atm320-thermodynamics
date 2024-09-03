@@ -37,7 +37,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/4
   - 3
   - Atmospheric Composition
-  - Chapter 1 response due
+  - Chapter 1 response due; [Assignment 1](assignments/assignment1) handed out
 * - 9/6
   - 4
   - Temperature and observed temperature profiles
@@ -49,11 +49,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/11
   - 6
   - Example problem 2.3, review of integrating separable equations
-  - 
+  - [Assignment 1](assignments/assignment1) due
 * - 9/13
   - 7
   - Equation of state
-  - Chapter 3 response due
+  - Chapter 3 response due; [Assignment 2](assignments/assignment2) handed out
 * - 9/16
   - 8
   - Equation of state for water vapor
@@ -65,7 +65,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/20
   - 10
   - Specific humidity and mixing ratio
-  - 
+  - [Assignment 2](assignments/assignment2) due; [Assignment 3](assignments/assignment3) handed out
 * - 9/23
   - 11
   - Virtual temperature and buoyancy
@@ -77,7 +77,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/27
   - 13
   - Hydrostatic balance (a more careful look)
-  - 
+  - [Assignment 3](assignments/assignment3) due
 * - 9/30
   - 14
   - Masses of air vs water columns; altitude dependence of g
