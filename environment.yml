@@ -2,11 +2,11 @@ name: atm320
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - jupyter-book
+  - python<3.12
+  - mystmd
   - jupyterlab
   - xarray
   - metpy
   - siphon
-  - sphinx-pythia-theme
   - pandoc
+  - nbconvert
