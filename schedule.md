@@ -44,16 +44,16 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - 
 * - 9/9
   - 5
-  - Thermodynamic systems and variables
+  - Thermodynamic systems and variables *(video lecture will be posted on Brightspace)*
   - Chapter 2 response due
 * - 9/11
   - 6
   - Example problem 2.3, review of integrating separable equations
-  - [Assignment 1](assignments/assignment1) due
+  - [Assignment 1](assignments/assignment1) due; [Assignment 2](assignments/assignment2) handed out
 * - 9/13
   - 7
-  - Equation of state
-  - Chapter 3 response due; [Assignment 2](assignments/assignment2) handed out
+  - Equation of state *(video lecture will be posted on Brightspace)*
+  - Chapter 3 response due. **No physical class meeting this day**
 * - 9/16
   - 8
   - Equation of state for water vapor
