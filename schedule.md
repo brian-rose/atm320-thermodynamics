@@ -81,7 +81,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 9/30
   - 14
   - Masses of air vs water columns; altitude dependence of g
-  - 
+  - Chapter 4 response due.
 * - 10/2
   - 15
   - Homework review
