@@ -80,7 +80,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   - [Assignment 3](assignments/assignment3) due
 * - 9/30
   - 14
-  - Masses of air vs water columns; altitude dependence of g
+  - Masses of air vs water columns; Estimating the height of ETEC from pressure measurements
   - Chapter 4 response due.
 * - 10/2
   - 15
@@ -92,39 +92,39 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 10/7
   - 17
-  - Geopotential height, thickness, and the hypsometric equation
+  - Altitude dependence of g; Geopotential height
   -
 * - 10/9
   - 18
-  - Midterm solutions; applications of the hypsometric equation
+  - Midterm solutions
   -
 * - 10/11
   - 19
-  - Idealized temperature and pressure profiles
-  - 
+  - Thickness and the hysometric equation
+  - [Assignment 4](assignments/assignment4) handed out
 * - 10/14
   - 
   - 
   - **NO CLASS** (Fall break)
 * - 10/16
   - 20
-  - Standard Atmosphere and altimeter settings
+  - Idealized temperature and pressure profiles
   -
 * - 10/18
   - 21
-  - Pressure-Volume work
-  - 
+  - Standard Atmosphere and altimeter settings
+  - [Assignment 4](assignments/assignment4) due
 * - 10/21
   - 22
-  - The First Law of thermodynamics
+  - Pressure-Volume work
   -
 * - 10/23
   - 23
-  - Adiabatic processes and potential temperature
+  - The First Law of thermodynamics
   - 
 * - 10/25
   - 24
-  - Homework solutions
+  - Adiabatic processes and potential temperature
   - 
 * - 10/28
   - 25
