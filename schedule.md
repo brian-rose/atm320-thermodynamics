@@ -100,7 +100,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
   -
 * - 10/11
   - 19
-  - Thickness and the hysometric equation
+  - Thickness and the hypsometric equation
   - [Assignment 4](assignments/assignment4) handed out
 * - 10/14
   - 
@@ -117,7 +117,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/21
   - 22
   - Pressure-Volume work
-  -
+  - Chapter 5 response due
 * - 10/23
   - 23
   - The First Law of thermodynamics
