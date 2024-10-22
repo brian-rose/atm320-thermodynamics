@@ -121,7 +121,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 10/23
   - 23
   - The First Law of thermodynamics
-  - 
+  - [Assignment 5](assignments/assignment5) handed out
 * - 10/25
   - 24
   - Adiabatic processes and potential temperature
@@ -137,7 +137,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/1
   - 27
   - Reversibility, entropy and the Second Law
-  -
+  - [Assignment 5](assignments/assignment5) due
 * - 11/4
   - 28
   - Water vapor saturation and dewpoints

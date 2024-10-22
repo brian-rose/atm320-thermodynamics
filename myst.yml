@@ -27,5 +27,6 @@ project:
         - file: assignments/assignment2.md
         - file: assignments/assignment3.md
         - file: assignments/assignment4.ipynb
+        - file: assignments/assignment5.ipynb
 site:
   template: book-theme
