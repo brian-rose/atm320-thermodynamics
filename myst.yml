@@ -2,6 +2,13 @@ version: 1
 project:
   title: Atmospheric Thermodynamics
   github: https://github.com/brian-rose/atm320-thermodynamics/
+  jupyter:
+    binder:
+      url: https://binder.projectpythia.org/
+      repo: brian-rose/atm320-thermodynamics
+      ref: main
+      provider: github
+
   authors:
     - name: Brian E. J. Rose
   copyright: '2024'
