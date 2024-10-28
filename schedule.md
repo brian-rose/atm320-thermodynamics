@@ -137,11 +137,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/1
   - 27
   - Reversibility, entropy and the Second Law
-  - [Assignment 5](assignments/assignment5) due
+  - [Assignment 5](assignments/assignment5) due; Chapter 6 response due.
 * - 11/4
   - 28
   - Water vapor saturation and dewpoints
-  -
+  - Reading response due for Chapter 7, part 1 (7.1 through 7.6)
 * - 11/6
   - 29
   - Midterm exam review
