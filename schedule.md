@@ -157,7 +157,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/13
   - 32
   - The Clausius-Clapeyron Equation (introduction)
-  - 
+  - [Assignment 6](assignments/assignment6) handed out
 * - 11/15
   - 33
   - The Clausius-Clapeyron Equation (details)
@@ -165,7 +165,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/18
   - 34
   - Vapor lines and Lifting Condensation Level
-  -
+  - Reading response due for Chapter 7, part 2 (7.7 through 7.10)
 * - 11/20
   - 35
   - The Moist Adiabatic Lapse Rate 
@@ -173,11 +173,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/22
   - 36
   - Equivalent potential temperature, wet bulb temperature and applications
-  - 
+  - [Assignment 6](assignments/assignment6) due; Assignment 7 handed out
 * - 11/25
   - 37
   - Dry Static Stability
-  -
+  - Reading response due for Chapter 8
 * - 11/27
   - 
   - 
@@ -189,7 +189,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 12/2
   - 38
   - Brunt-Väisäila frequency
-  - 
+  - Assignment 7 due
 * - 12/4
   - 39
   - Conditional and potential instability
