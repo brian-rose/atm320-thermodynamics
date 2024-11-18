@@ -173,7 +173,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/22
   - 36
   - Equivalent potential temperature, wet bulb temperature and applications
-  - [Assignment 6](assignments/assignment6) due; Assignment 7 handed out
+  - [Assignment 6](assignments/assignment6) due; [Assignment 7](assignments/assignment7) handed out
 * - 11/25
   - 37
   - Dry Static Stability
@@ -189,7 +189,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 12/2
   - 38
   - Brunt-Väisäila frequency
-  - Assignment 7 due
+  - [Assignment 7](assignments/assignment7)
 * - 12/4
   - 39
   - Conditional and potential instability

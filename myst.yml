@@ -36,5 +36,6 @@ project:
         - file: assignments/assignment4.ipynb
         - file: assignments/assignment5.ipynb
         - file: assignments/assignment6.ipynb
+        - file: assignments/assignment7.ipynb
 site:
   template: book-theme
