@@ -20,7 +20,7 @@ Instructor:
 : [Brian Rose](https://www.atmos.albany.edu/facstaff/brose/)
 : email: brose -at- albany.edu 
 : office: ETEC 425
-: office hours: Mondays 1:00 - 2:00 PM and Tuesdays 11:45 AM - 12:00 PM
+: office hours: Mondays 1:00 - 2:00 PM and Tuesdays 11:15 AM - 12:00 PM
 
 Teaching Assistant:
 : **Ada Ellingworth**
