@@ -177,7 +177,7 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 11/25
   - 37
   - Dry Static Stability
-  - Reading response due for Chapter 8
+  - 
 * - 11/27
   - 
   - 
@@ -189,11 +189,11 @@ The course outline closely follows the chapters in the book [_A First Course in 
 * - 12/2
   - 38
   - Brunt-Väisäila frequency
-  - [Assignment 7](assignments/assignment7)
+  - Reading response due for Chapter 8. [Assignment 7](assignments/assignment7) due.
 * - 12/4
   - 39
   - Conditional and potential instability
-  -
+  - 
 * - 12/6
   - 40
   - CIN and CAPE
